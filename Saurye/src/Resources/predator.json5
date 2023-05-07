@@ -1,0 +1,251 @@
+{
+  "name": "Predator",
+  "version": "2.1.0",
+  "System": {
+    "AlertPage"          :  "PredatorAlertPage",
+    "WizardPackageName"  :  "Saurye.Wizard",
+    "WizardSummoner"     :  "Saurye.System.PredatorWizardSummoner",
+    "SystemDispatcher"   :  "Saurye.System.PredatorDispatcher",
+    "MainMenu"           :  "predatorMenu.json5",
+    "16BitInnerPassword" :  "AEbean2017401375", /** Length: 16Bit This password is critical for encrypt system data. **/
+    "DebugMode"          :  true,
+    "AuthorityConfig"    :  {
+      "VerifyUser"      : false,
+      "DefaultUsername" : "undefined",
+      "UserTokenField"  : "predator_user_token",
+      "UserTokenAge"    : 21600 // 6*60*60
+    },
+
+    "RDB": {
+      "Driver"        : "Pinecone.Framework.Util.RDB.MySql.MySQLHost",
+      "Location"      : "node1.6e6.top:13393/predator",
+      "Username"      : "root",
+      "Password"      : "root",
+      "Charset"       : "UTF-8",
+      "TableNamespace": "predator_"
+    },
+
+    "UploadConfig": { // Saurye global upload config
+      "PublicImgUpPath": "/root/assets/images/public/upload/",
+      "PublicImgAtPath": "/assets/images/public/upload/",
+      "PublicFilePath" : "/root/root/Custom/publicFiles/uploads/" ,
+      "PublicFileUpSize": 20971520,
+      "PublicImgUpSize":  524288
+    },
+
+    "GlobalProperties": {
+      /** Query: For queryString, WConf: WizardConfig in this file for WizardsList, Var: PageData variable name */
+      "Paginate" : {
+        "QueryPageID"    : "pageid",
+        "QueryPageLimit" : "pageLimit",
+        "WConfPageLimit" : "pageLimit",
+        "VarPageDataSum" : "nPageDataSum",
+        "VarPageLimit"   : "nPageLimit",
+        "VarBeginNum"    : "nBeginNum",
+        "PaginatePageMax": 5, // Required odd
+      }
+    }
+  },
+
+  "Elements": "elements.json5",
+
+  "Peripheral": {
+    "Equipment": { // Plugins
+      "TemplatePath": "UIEquipment/",
+      "dataTables"  : "/root/assets/js/plugins/dataTables/",
+      "ueditor"     : "./ueditor/",
+      "laydate"     : "/root/assets/js/plugins/laydate/",
+      "chart"       : "/root/assets/js/plugins/",
+
+      "UI": {
+        "SingleImgUploader": {
+          "defaultImgSrc": "/root/assets/img/userImg.jpg"
+        }
+      }
+    },
+
+    "Skill": { // Util & Helper
+      "FileUploadSkill": {
+        "randomName": 12, // Int type will be random name length, false will using original name.
+        "allowTypes": [ // If null wll allow any files.
+          "png", "jpg", "jpeg", "gif", "bmp", "icon", "ico",
+          "flv", "swf", "mkv", "avi", "rm", "rmvb", "mpeg", "mpg",
+          "ogg", "ogv", "mov", "wmv", "mp4", "webm", "mp3", "wav", "mid",
+          "rar", "zip", "tar", "gz", "7z", "bz2", "cab", "iso",
+          "doc", "docx", "xls", "xlsx", "ppt", "pptx", "pdf", "txt", "md", "xml"
+        ],
+        "charset": "UTF-8",
+      }
+    }
+  },
+
+  "WizardsList": {
+    "PredatorAlertPage": {
+      "defaultSuccessTitle": "操作成功！",
+      "defaultFailTitle": "操作失败,请联系管理员！",
+      "defaultSuccessURL": -1,
+      "defaultFailURL": -1,
+      "table": null,
+      "title": "操作成功",
+      "pageLimit": 0,
+      "role": "System"
+    },
+    "SystemCoven": {
+      "table": null,
+      "title": "",
+      "pageLimit": 0,
+      "role": "System"
+    },
+
+    /**************************************** Admin Wizard ****************************************/
+    "AdminMutualWordDepositor": {
+      "table": null,
+      "title": "系统共用单词总库管理",
+      "pageLimit": 15,
+      "role": "Admin"
+    },
+    "AdminMutualWordRoot": {
+      "table": null,
+      "title": "系统词根库管理",
+      "pageLimit": 15,
+      "role": "Admin"
+    },
+    "AdminUserManage": {
+      "table": null,
+      "title": "账号信息管理",
+      "pageLimit": 15,
+      "role": "Admin"
+    },
+    "AdminMutualGlossary": {
+      "table": null,
+      "title": "用户单词本管理",
+      "pageLimit": 15,
+      "role": "Admin"
+    },
+
+
+
+    /**************************************** Public Wizard ****************************************/
+    "PredatorIndex": {
+      "table": null,
+      "title": "Nuts Digital Sauron Eyes",
+      "pageLimit": 4,
+      "role": "Public"
+    },
+    "SiteNavigation": {
+      "table": null,
+      "title": "网站导航",
+      "pageLimit": 4,
+      "role": "Public"
+    },
+    "UnifyLogin": {
+      "table": null,
+      "title": "统一登录",
+      "pageLimit": 4,
+      "role": "Public"
+    },
+    "undefined": {
+      "table": null,
+      "title": "DR.A.R.B Test Page",
+      "pageLimit": 4,
+      "role": "Public"
+    },
+
+
+
+    /**************************************** User Wizard ****************************************/
+    "WordExplicater"     : {
+      "table": null,
+      "title": "词汇主页",
+      "pageLimit": 4,
+      "role": "User"
+    },
+    "FragmentExplicater" : {
+      "table": null,
+      "title": "词根主页",
+      "pageLimit": 4,
+      "role": "User"
+    },
+    "GeniusTranslator"   : {
+      "table": null,
+      "title": "Predator - 魔法翻译",
+      "cnName": "魔法搜索",
+      "pageLimit": 30,
+      "role": "User"
+    },
+    "GeniusExplorer"     : {
+      "table": null,
+      "title": "Predator - 魔法搜索",
+      "cnName": "魔法搜索",
+      "pageLimit": 30,
+      "role": "User"
+    },
+    "EtymologyExplorer"  : {
+      "table": null,
+      "title": "Predator - 魔法词源",
+      "cnName": "魔法搜索",
+      "pageLimit": 30,
+      "role": "User"
+    },
+    "UserIndex"          : {
+      "table": null,
+      "title": "个人中心",
+      "pageLimit": 4,
+      "role": "User"
+    },
+    "PersonalGlossary"   : {
+      "table": null,
+      "title": "魔法单词本",
+      "pamphletPageLimit": 15,
+      "pageLimit": 30,
+      "role": "User"
+    },
+    "PersonalSentences"  : {
+      "table": null,
+      "title": "魔法造句本",
+      "pamphletPageLimit": 15,
+      "pageLimit": 30,
+      "role": "User"
+    },
+    "PersonalFragments"   : {
+      "table": null,
+      "title": "魔法词根本",
+      "pamphletPageLimit": 15,
+      "pageLimit": 30,
+      "role": "User"
+    },
+    "MutualGlossary"     : {
+      "table": null,
+      "title": "单词本社区",
+      "glossaryPageLimit": 15,
+      "pageLimit": 30,
+      "role": "User"
+    },
+    "NovelGrimoire"      : {
+      "table": null,
+      "title": "魔法小说",
+      "pageLimit": 20,
+      "role": "User"
+    },
+    "NovelExhibitor"     : {
+      "table": null,
+      "title": "魔法单词本",
+      "pageLimit": 30,
+      "role": "User"
+    },
+    "ReciteCenter"       : {
+      "table": null,
+      "title": "Predator - 魔法背单词",
+      "cnName": "魔法背单词",
+      "pageLimit": 4,
+      "role": "User"
+    },
+    "ReciteWord"         : {
+      "table": null,
+      "title": "Predator - 背单词",
+      "cnName": "背单词",
+      "pageLimit": 4,
+      "role": "User"
+    }
+  }
+}

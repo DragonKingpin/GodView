@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="production">
+    <output-path>$PROJECT_DIR$/out/production</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="lib1" />
+          <element id="library" level="project" name="lib2" />
+          <element id="library" level="project" name="Library" />
+          <element id="library" level="project" name="Library1" />
+          <element id="library" level="project" name="Library2" />
+          <element id="library" level="project" name="Library3" />
+          <element id="library" level="project" name="OpenNLP" />
+          <element id="library" level="project" name="OpenNLP1" />
+          <element id="library" level="project" name="OpenNLP2" />
+          <element id="library" level="project" name="OpenNLP3" />
+          <element id="dir-copy" path="$PROJECT_DIR$/lib" />
+        </element>
+        <element id="directory" name="classes">
+          <element id="module-output" name="Saurye" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

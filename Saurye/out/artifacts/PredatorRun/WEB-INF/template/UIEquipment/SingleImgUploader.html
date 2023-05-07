@@ -1,0 +1,52 @@
+<script>
+    Predator.equipment.ui = {
+        SingleImgUploader:{
+            previewImg : function ( uID, h, allowSize ) {
+                if( h ){
+                    var hFile = h.files[0];
+                    console.log(hFile,hFile.size);
+                    if(allowSize){
+                        if(allowSize < hFile.size){
+                            h.value = null;
+                            alert("文件太大，不允许超过"+allowSize/1024+"KB!");
+                            return null;
+                        }
+                    }
+                    var hFileReader = new FileReader();
+                    hFileReader.onload = function (e) {
+                        console.log("Successfully Preview!");
+                        document.getElementById(uID).src = e.target.result;
+                    };
+                    hFileReader.readAsDataURL(hFile)
+                }
+            },
+
+            proto: function ( spawnAtID, uName, allowSize, defaultSrc ) {
+                this.spawnAtID = spawnAtID;
+                this.uName = uName;
+                this.allowSize = allowSize;
+                this.defaultSrc = defaultSrc?defaultSrc:"/root/assets/img/userImg.jpg";
+                this.noImgSrc = "/root/root/System/img/noimg.jpg";
+                this.oID = parseInt(Math.random() * 1000000000000,10);
+                this.imgFieldID = spawnAtID + this.oID;
+
+                this.spawn = function () {
+                    var objHandle = document.getElementById(this.spawnAtID);
+                    if(objHandle){
+                        objHandle.insertAdjacentHTML('beforeend', '<a href="javascript:void(0)"><div class="input-group ">' +
+                            '<img id="'+this.imgFieldID+'" src="'+this.defaultSrc+'" onclick="document.getElementById(\''+this.uName+ this.oID+'\').click();" height="200" onerror="this.src=\''+this.noImgSrc+'\'"></a>\n' +
+                            '<input id=\'noImgFlag\' name=\'noImgFlag\' value=\'0\' type="hidden"/><em class="close" style="absolute; top: 0; right: -14px;" title="删除这张图片" onclick="(function () {' +
+                            'document.getElementById(\''+this.imgFieldID+'\').setAttribute(\'src\',\''+this.noImgSrc+'\');' +
+                            'document.getElementById(\'noImgFlag\').value = 1' +
+                            '})()">×</em></div>' +
+                            '<div style="display: none;"><input type="file" name='+this.uName+' id="'+this.uName+ this.oID+''+this.imgFieldID+'" onChange="Saurye.equipment.ui.SingleImgUploader.previewImg(\'\',this,)" accept="image/*" /></div>'+this.allowSize+'');
+                    }
+                };
+            },
+
+            mount: function ( spawnAtID, uName, allowSize, defaultSrc ) {
+                return ( new Predator.equipment.ui.SingleImgUploader.proto( spawnAtID, uName, allowSize, defaultSrc ) ).spawn();
+            }
+        }
+    };
+

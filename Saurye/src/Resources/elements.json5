@@ -1,0 +1,164 @@
+{
+  "config": {
+    "JavaFieldTablePrefix"    : "mTab",
+    "JavaFieldAssetsPrefix"   : "mAst"
+  },
+  "Elements": {
+    "Basic": {
+
+    },
+    "Mutual": {
+      "Dictionary" : {
+        "tables": {
+          "EnCnIndex" : "dict_en_cn",
+          "En2Cn"     : "dict_en2cn_means",
+          "En2En"     : "mutual_en_definitions",
+
+          "ProEn2Cn"  : "dict_professional_en2cn",
+          "ProField"  : "dict_professional_field"
+        }
+      },
+      "Etymology"  : {
+        "tables": {
+          "Defs"       : "w_etymology_defines",
+          "CnPoS"      : "cn_w_etymon_def_pos",
+          "EnPoS"      : "en_w_etymon_def_pos",
+          "Relevance"  : "w_etymon_derived_relevance",
+          "Linguae"    : "en_w_etymon_derived_linguae",
+
+          "FEpitome"   : "w_f_clans_etymon_epitomes",
+          "FClans"     : "w_frag_clans_etymon_basic",
+          "FFrag"      : "w_fragments_etymon_basic",
+        }
+      },
+      "Extend"     : {
+        "tables": {
+          "SynDiscrClans"    : "en_discriminate_synon_clans",
+          "SynDiscrClanDefs" : "en_discr_synon_clans_defs",
+          "SynDiscrEpitomes" : "en_discriminate_synon_epitomes"
+        }
+      },
+      "Fragment"   : {
+        "tables": {
+          "Clans"      : "mutual_w_fragments_clans",
+          "Frags"      : "mutual_word_stems_affixes",
+          "Band"       : "w_fragments_band",
+          "CDefs"      : "w_fragments_clans_defs",
+          "Homologues" : "w_fragments_clans_homologues",
+        }
+      },
+      "Glossary"   : {
+        "tables": {
+          "Band"     : "band_cache",
+          "Glossary" : "mutual_glossary",
+          "Book"     : "mutual_glossary_words"
+        }
+      },
+      "Literary"   : {
+        "tables": {
+          "NVAuthor"      : "novels_authors",
+          "Novels"        : "mutual_novels",
+          "NVSubstances"  : "ln_chapters_substances",
+          "NVChapters"    : "novels_chapters"
+        }
+      },
+      "Phrase"     : {
+        "tables": {
+          "Phrases"  : "mutual_words_phrases",
+          "Defs"     : "words_phrases_defs",
+          "EgSent"   : "w_phrases_defs_eg_sentences"
+        }
+      },
+      "Sentence"   : {
+        "tables": {
+          "EnBand"   : "en_band_eg_sentences",
+          "EnDefEg"  : "en_definitions_eg_sentence",
+          "WordEnEg" : "en_example_sentences"
+        }
+      },
+      "Slang"      : {
+        "tables": {
+          "Slangs"    : "mutual_slangs",
+          "Defs"      : "mutual_slang_defines",
+          "EgSent"    : "slang_defs_eg_sentences"
+        }
+      },
+      "Word"       : {
+        "tables": {
+          "Word"            : "mutual_words",
+          "Frequency"       : "mutual_words_frequency",
+          "FreqRank"        : "words_frequency_rank",
+          "BandFreq"        : "word_band_frequency",
+          "Inflections"     : "mutual_inflections",
+          "SemanticAssoc"   : "words_semantic_assoc",
+          "FrequencyYear"   : "words_frequency_years",
+          "FQYearConsult"   : "words_f_years_sum",
+          "Isomers"         : "words_isomer",
+          "FIsomers"        : "words_isomer_formula",
+          "Mutants"         : "words_mutant",
+          "Allotropys"      : "words_allotropy",
+          "FAllotropys"     : "words_allotropy_formula",
+          "MarkovTrans1_1G" : "w_markov_trans_matrix_1_1gram",
+          "MarkovTrans1G"   : "w_markov_trans_matrix_1gram",
+          "WeightEtymFrag"  : "w_weight_t_etym_frag",
+          "WeightProfForm"  : "w_weight_t_prof_form",
+          "WeightDynamic"   : "w_weight_t_dynamic",
+          "WeightUnionBase" : "w_weight_t_union_base",
+          "USAGradeLevel"   : "words_usa_grade_level"
+        }
+      }
+    },
+    "User": {
+      "Profile"    : {
+        "tables": {
+          "Users"      : "users",
+          "Profile"    : "users_profile",
+          "FocusMajor" : "users_major_focus"
+        },
+        "assets": {
+          "AvatarSrc": "/root/root/User/img/avatar/"
+        }
+      },
+      "Word"       : {
+        "tables": {
+          "Recall"  : "user_words_recall",
+          "Record"  : "user_words_record"
+        }
+      },
+      "Pamphlet"   : {
+        "tables": {
+          "Pamphlets"    : "user_pamphlets",
+          "Configs"      : "user_pamphlet_config",
+          "Collection"   : "user_pamphlet_collect"
+        },
+        "assets": {
+        },
+        "Glossary"   : {
+          "tables": {
+            "Words"      : "user_glossary_words",
+            "RecitePlan" : "u_glossary_recite_plan"
+          },
+          "assets": {
+            "CoverSrc": "/root/root/User/img/pamphlet/glossary/"
+          }
+        },
+        "Sentence"   : {
+          "tables": {
+            "EnSentences"  : "u_pamphlet_en_sentences",
+            "EnSentWords"  : "u_pamp_en_sent_ref_words"
+          },
+          "assets": {
+            "CoverSrc": "/root/root/User/img/pamphlet/sentence/"
+          }
+        }
+      },
+      "Fragment"   : {
+        "tables": {
+          "Glossary"   : "user_pamphlets",
+          "Roots"      : "user_fragments_root",
+          "Collection" : "user_fragments_collect"
+        }
+      }
+    }
+  }
+}

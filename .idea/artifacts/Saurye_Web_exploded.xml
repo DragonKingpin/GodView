@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Saurye:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Saurye_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Saurye/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Saurye" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Library" />
+          <element id="library" level="project" name="lib2" />
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="OpenNLP2" />
+          <element id="library" level="project" name="Library3" />
+          <element id="library" level="project" name="Library1" />
+          <element id="library" level="project" name="OpenNLP1" />
+          <element id="library" level="project" name="lib1" />
+          <element id="library" level="project" name="OpenNLP3" />
+          <element id="library" level="project" name="Library2" />
+          <element id="library" level="project" name="OpenNLP" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

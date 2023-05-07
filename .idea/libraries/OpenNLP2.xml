@@ -1,0 +1,45 @@
+<component name="libraryTable">
+  <library name="OpenNLP2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/javax.ws.rs-api-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/jcommander-1.48.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/javassist-3.20.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/validation-api-1.1.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/hk2-api-2.5.0-b30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/morfologik-fsa-builders-2.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/jackson-databind-2.8.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/jersey-media-jaxb-2.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/morfologik-stemming-2.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/opennlp-uima-1.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/javax.inject-2.5.0-b30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/jackson-jaxrs-json-provider-2.8.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/jersey-container-grizzly2-http-2.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/grizzly-framework-2.3.28.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/opennlp-morfologik-addon-1.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/jersey-server-2.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/jackson-module-jaxb-annotations-2.8.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/hppc-0.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/jersey-common-2.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/grizzly-http-2.3.28.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/jersey-client-2.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/jackson-jaxrs-base-2.8.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/morfologik-fsa-2.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/grizzly-http-server-2.3.28.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/javax.annotation-api-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/aopalliance-repackaged-2.5.0-b30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/opennlp-brat-annotator-1.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/morfologik-tools-2.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/hk2-utils-2.5.0-b30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/jackson-core-2.8.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/osgi-resource-locator-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/jersey-entity-filtering-2.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/hk2-locator-2.5.0-b30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/opennlp-tools-1.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/jackson-annotations-2.8.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/jersey-guava-2.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/src/Pinecone/Framework/Library/OpenNLP/jersey-media-json-jackson-2.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

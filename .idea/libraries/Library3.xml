@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Library3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Saurye/out/production/Predator/Pinecone/Framework/Library/json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/out/production/Predator/Pinecone/Framework/Library/commons-io-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/out/production/Predator/Pinecone/Framework/Library/mysql-connector-java-5.1.39-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/out/production/Predator/Pinecone/Framework/Library/commons-fileupload-1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/out/production/Predator/Pinecone/Framework/Library/Jama-1.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/out/production/Predator/Pinecone/Framework/Library/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Saurye/out/production/Predator/Pinecone/Framework/Library/hanlp-1.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,32 @@
+{
+  "SummerSystem": {
+    "WizardParameter"      : "do",
+    "ControlParameter"     : "control",
+    "ModelParameter"       : "action",
+    "ModelClassSuffix"     : "Model",
+    "ControlClassSuffix"   : "Control",
+    "DefaultErrorPageTpl"  : "/pinecone/error.tpl.jsp",
+    "JavaWebInfoSuffix"    : "/WEB-INF",
+    "TemplatePath"         : "/template/",
+    "ResourcesPath"        : "Resources",
+    "WizardSummoner"       : "Pinecone.Framework.Util.Net.Illumination.JSONBasedWizardSummoner",
+    "RoutumPackageNSs"     : [ "Saurye.Wizard.Public.undefined" ],
+    "EnableQueryRoutum"    : true, // Using query string to dispatch router path under RoutumPackageNSs. e.g. //localhost/?do=/ClassName/MethodName => equal //localhost/ClassName/MethodName
+
+    "UploadConfig": {
+      "SingleFileSizeMax"  : 104857600,
+      "SumFileSizeMax"     : 209715200,
+      "UploadEncode"       : "UTF-8",
+      "UploadTempDir"      : "D:/Sanctum/VirtualMap/ProTemps/Illumination"
+    },
+
+    "Hosts": {
+      "Predator": "predator.json5"
+    },
+
+    "PublicWizardConfig": {
+      "NaughtyGeniesSifted": true,
+      "OtherNaughtyGenies": []
+    }
+  }
+}

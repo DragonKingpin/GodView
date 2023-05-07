@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5" metadata-complete="false">
+    <display-name>Saurye</display-name>
+<!--    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+        <welcome-file>PredatorIndex.jsp</welcome-file>
+        <welcome-file>default.html</welcome-file>
+        <welcome-file>default.htm</welcome-file>
+        <welcome-file>default.jsp</welcome-file>
+    </welcome-file-list>-->
+    <context-param>
+        <param-name>encoding</param-name>
+        <param-value>UTF-8</param-value>
+    </context-param>
+
+    <!-- Bean Nuts Pinecone Summer Ver2.8 -->
+    <!-- For Summer There is ONLY two java servlet. -->
+    <!-- The main servlet will handle all request ,response, etc to Pinecone Summer.-->
+    <!-- Summer will using Net Summer Prototype.-->
+    <!-- Control mapping style is difference with Spring but more like Pinecone C/CPP and PHP. -->
+    <!-- After jsp servlet Summer will using format like "?do=xxx" to parse URL.-->
+    <context-param>
+        <param-name>IlluminationConfigLocation</param-name>
+        <param-value>classpath:Resources/config.json5</param-value>
+    </context-param>
+    <context-param>
+        <param-name>HostSystem</param-name>
+        <param-value>Saurye.System.Predator</param-value>
+    </context-param>
+    <servlet>
+        <description>SummerSystemServlet</description>
+        <display-name>SystemServlet</display-name>
+        <servlet-name>SystemServlet</servlet-name>
+        <servlet-class>Pinecone.Framework.Util.Summer.SystemServlet</servlet-class>
+        <load-on-startup>4</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SystemServlet</servlet-name>
+        <url-pattern></url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description>SummerSystemRoutlet</description>
+        <display-name>SystemRoutlet</display-name>
+        <servlet-name>SystemRoutlet</servlet-name>
+        <servlet-class>Pinecone.Framework.Util.Summer.SystemRoutlet</servlet-class>
+        <load-on-startup>4</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SystemRoutlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <!-- Summer End.-->
+
+    <filter>
+        <display-name>PredatorFilter</display-name>
+        <filter-name>PredatorFilter</filter-name>
+        <filter-class>Saurye.System.PredatorFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>PredatorFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+
+    <!--Static Resources-->
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>/ueditor/</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.otf</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.eot</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.woff</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.woff2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.ttf</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.svg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.jpg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.gif</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.png</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.ico</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.icon</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.map</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.js</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.css</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.html</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.htm</url-pattern>
+    </servlet-mapping>
+</web-app>

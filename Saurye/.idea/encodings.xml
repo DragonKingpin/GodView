@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$USER_HOME$/Desktop/RG-DataStream.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Resources/predator.json5" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Resources/predatorMenu.json5" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/template/UIEquipment/PictureMultipleExplorer.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/template/UIEquipment/PictureSingleExplorer.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/template/UIEquipment/SingleImgUploader.html" charset="UTF-8" />
+  </component>
+</project>

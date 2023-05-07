@@ -1,0 +1,337 @@
+<div class="modal fade" id="CrispPictureSingleExplorerDialog" tabindex="-1" role="dialog" aria-labelledby="CrispPictureExplorerLabel" aria-hidden="true"  style="overflow-y:scroll;">
+    <style>
+        .crisp-picture-explorer{
+            width: 45%;
+        }
+        .crisp-picture-explorer .operatorBox{
+            padding: 10px 20px;border-bottom: 1px solid #e7e7eb;clear: both;box-sizing: border-box;text-align: right;margin-bottom: 1%;margin-top: 1%
+        }
+        .crisp-picture-explorer .pictureList{
+            overflow-y:scroll;height: 320px;
+        }
+        .crisp-picture-explorer .FileNameLabel{
+            width: 80px
+        }
+        .crisp-picture-explorer .GreyBackground{
+            background: #e5e5e5
+        }
+        .crisp-picture-explorer .searchGroup{
+            float: left;
+            width: 60%;
+            position: relative;
+            margin-bottom: 0;
+            margin-left: -2%;
+        }
+        .crisp-picture-explorer .searchGroup label{
+            width: 15%;height: 34px;line-height: 34px;color: #333;float: left;background-color: white;border: 1px solid #E4E4E4;text-align: center;
+        }
+        .crisp-picture-explorer .searchGroup input{
+            margin-left: 1%;
+            border-radius: 0;
+            width: 84%;
+            display: inline;
+        }
+
+        .pictureExplorer {
+            margin-left: -5px;
+        }
+        .pictureExplorer > ul {
+            margin-bottom: 0; }
+        .pictureExplorer li {
+            margin-bottom: 10px !important; }
+        .pictureExplorer .picture {
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid #e7e7eb;
+        }
+        .pictureExplorer .picture:hover .actions {
+            bottom: 0; }
+        .pictureExplorer .picture .tags {
+            position: absolute;
+            right: 2px;
+            top: 2px;
+            direction: rtl; }
+        .pictureExplorer .picture .tags .label {
+            display: table;
+            margin-bottom: 2px;
+            text-align: left;
+            direction: ltr; }
+        .pictureExplorer .picture .actions {
+            width: 100%;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.3);
+            height: 33px;
+            left: 0;
+            bottom: -33px;
+            *zoom: 1;
+            -webkit-transition: bottom 100ms ease;
+            -moz-transition: bottom 100ms ease;
+            -o-transition: bottom 100ms ease;
+            transition: bottom 100ms ease; }
+        .pictureExplorer .picture .actions:before, .pictureExplorer .picture .actions:after {
+            display: table;
+            content: "";
+            line-height: 0; }
+        .pictureExplorer .picture .actions:after {
+            clear: both; }
+        .pictureExplorer .picture .actions.show-actions {
+            bottom: 0; }
+        .pictureExplorer .picture .actions .btn-link {
+            color: white;
+            text-shadow: none; }
+        .pictureExplorer .picture .actions .pull-right .btn-link {
+            position: relative;
+            top: 2px; }
+
+        ul.unstyled,
+        ol.unstyled {
+            margin-left: 0;
+            list-style: none;
+            padding: 0 0 0 20px;
+        }
+
+        ul.inline,
+        ol.inline {
+            margin-left: 0;
+            list-style: none;
+        }
+        ul.inline > li,
+        ol.inline > li {
+            display: inline-block;
+            *display: inline;
+            *padding-right: 5px;
+            padding-left: 5px;
+            *zoom: 1;
+        }
+        .pagination > li > a:focus{
+            background: white;
+        }
+        .pagination > li >a:active{
+            background: #eee;
+        }
+    </style>
+    <div class="modal-dialog crisp-picture-explorer" style="margin-top: 5%">
+        <div class="modal-content">
+            <div class="modal-header GreyBackground">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="CrispPictureExplorerLabel">选择图片</h4>
+            </div>
+
+            <div class="panel-body" >
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#serve" data-toggle="tab">当前服务器</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade active in" id="serve">
+                        <div class="col-sm-12 operatorBox" >
+                            <div class = "form-group searchGroup">
+                                <label><i class = "fa fa-search"></i></label>
+                                <input type="text" class="form-control" id = "timeToSearch" placeholder="输入文件名以查找！">
+                            </div>
+                            <label for="resourceFile" class="btn btn-primary">上传图片</label>
+                            <input type="file" id="resourceFile" onchange="CrispPictureSingleExplorer.uploadImg()" name="adminImgUpload" accept="image/gif, image/jpg, image/jpeg, image/bmp, image/png, image/ico" style="display: none">
+                        </div>
+
+                        <div class='row'>
+                            <div class='pictureExplorer'>
+                                <ul class='unstyled inline pictureList'>
+
+                                </ul>
+                            </div>
+                            <div class="col-sm-12" style="margin-bottom: -3%;text-align: right">
+                                <ul class="pagination" id="CrispPictureSinglePagination"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer GreyBackground" style="text-align: center">
+                <button type="button" class="btn btn-default" data-dismiss="modal" style="width: 15% ">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var CrispPictureSingleExplorer = {
+        show_number:10,
+        currentName:"",
+        currentID:"",
+        number:0,
+        picture:[],
+        pictureBack:[],
+        pictureList:[],
+        selectFlag:[],
+        countNumber:0,
+
+        showDialog:function(name){
+            this.currentID = name;
+            this.currentName = name;
+            CrispPictureSingleExplorer.pictureBack = CrispPictureSingleExplorer.picture.slice();
+            this.getImage();
+        },
+
+        initialize:function(src){
+            this.picture = src;
+            this.countNumber = 0;
+            this.pictureList = [];
+            this.selectFlag = [];
+        },
+
+        showPagination:function (uiID,cPageID,sumOfPage, limit) {
+            // 计算总共存在多少页
+            var lims = Math.ceil(sumOfPage / limit);
+            // 本页最开始条数
+            var page_start_count = (cPageID * this.show_number) - (this.show_number - 1);
+            // 本页最后条数
+            var page_end_count = page_start_count + this.show_number - 1;
+            //清空uiID中的所有html
+            $(uiID).empty();
+            //向uiID中添加html
+            if(lims !== cPageID){
+                var information = '第'+ page_start_count + '—' + page_end_count  + '条，共' + sumOfPage + '条';
+            } else {
+                var information = '第'+ page_start_count + '—' + sumOfPage  + '条，共' + sumOfPage + '条';
+            }
+            $(uiID).append('<li><a>' + information + '</a></li>');
+            if(cPageID > 1){
+                $(uiID).append('<li><a href="javascript:CrispPictureSingleExplorer.changeId(1);">开始</a></li><li><a href="javascript:CrispPictureSingleExplorer.changeId('+ (cPageID - 1) +');"><<</a></li> ');
+            } else {
+                $(uiID).append('<li><a  href ="javascript:;"><<</a></li> ');
+            }
+            for(var i = 1; i <= lims ; i ++){
+                if(i === cPageID){
+                    $(uiID).append('<li class = "active"><a  href ="javascript:;">'+ i +'</a></li> ');
+                }else {
+                    $(uiID).append('<li ><a  href ="javascript:CrispPictureSingleExplorer.changeId('+i+');">'+ i +'</a></li> ');
+                }
+            }
+            if(cPageID < lims){
+                $(uiID).append('<li><a disabled href ="javascript:CrispPictureSingleExplorer.changeId('+ (cPageID + 1) +');">>></a></li> ');
+                $(uiID).append('<li><a href="javascript:CrispPictureSingleExplorer.changeId('+lims+');">末尾</a></li>')
+            } else {
+                $(uiID).append('<li><a  href ="javascript:;"> >></a></li> ');
+            }
+        },
+
+        getImage:function() {
+            this.number = this.picture.length;
+            this.showImage(1);
+            this.showPagination('#CrispPictureSinglePagination',1,this.number,this.show_number);
+        },
+
+        showImage:function(pageId){
+            $('.unstyled').empty();
+            var index = (pageId - 1) * this.show_number;
+            for(var i = index; i < index + this.show_number && i < this.number ; i++){
+                this.selectFlag[i] = false;
+                $('.unstyled').append('<li  ><div class="picture" id="picture'+i+'">' +
+                    '<div class="actions">'+
+                    '<div class="pull-left FileNameLabel">'+
+                    '<a class="btn btn-link"><small>'+CrispPictureSingleExplorer.picture[i].filename +'</small></a></div>'+
+                    '<div class="pull-right">'+
+                    '<a class="btn btn-primary " href="javascript:CrispPictureSingleExplorer.imageDelete('+ i +');" style="border-radius: 0">'+
+                    '<i class="fa fa-trash"></i></a></div></div>'+
+                    '<div onclick="CrispPictureSingleExplorer.changeImage('+ i +')">'+
+                    '   <img src="'+CrispPictureSingleExplorer.picture[i].url+'" width="150" height="150"/></div></li> '+
+                    '</div>');
+                $('#Select'+index+'').detach();
+            }
+        },
+
+        changeId:function (pageId) {
+            this.showImage(pageId);
+            this.showPagination('#CrispPictureSinglePagination',pageId,this.number,this.show_number);
+        },
+
+        imageDelete:function (imageId) {
+            if(confirm("您确定要删除 '" +CrispPictureSingleExplorer.picture[imageId].filename+ "' 这张图片吗？")){
+                var classid = CrispPictureSingleExplorer.picture[imageId].classid;
+                CrispPictureSingleExplorer.picture.splice(imageId,1);
+                $.ajax({
+                    url: "index.php?do=CrispInfrastructure",
+                    async: false,
+                    type: "GET",
+                    data: {'control':'adminImgDelete',"classid":classid},
+                    success: function (result) {
+                        CrispPictureSingleExplorer.getImage();
+                    }
+                });
+            }
+        },
+
+        changeImage:function (index) {
+            $("."+this.currentID + ' input').val(CrispPictureSingleExplorer.picture[index].url);
+            $("."+this.currentID + ' img').attr('src',CrispPictureSingleExplorer.picture[index].url);
+            $("#CrispPictureSingleExplorerDialog").modal('hide');  //手动关闭
+        },
+
+        search:function () {
+            var str = $('#timeToSearch').val();
+            var index = CrispPictureSingleExplorer.picture.length;
+            //console.info(picture[0].name.trim().indexOf(str));
+            if(str !== ''){
+                for(var i = 0; i < index ;i++){
+                    if(CrispPictureSingleExplorer.picture[i].filename.trim().indexOf(str) < 0){
+                        CrispPictureSingleExplorer.picture.splice(i,1);
+                        i--;
+                        index--;
+                    }
+                }
+            }
+            this.getImage();
+            CrispPictureSingleExplorer.picture = CrispPictureSingleExplorer.pictureBack.slice();
+        },
+
+        uploadImg:function () {
+            var formData = new FormData();
+            var resourceFileHandle = $('#resourceFile');
+            formData.append('adminImgUpload',resourceFileHandle[0].files[0]);
+            $.ajax({
+                url: "index.php?do=CrispInfrastructure&control=adminImgUpload",
+                type: "POST",
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (data) {
+                    if(data!=="true"){
+                        if(data==="defined"){
+                            alert("文件已存在，请勿重复上传！");
+                            $("#timeToSearch").val(resourceFileHandle[0].files[0].name);
+                            CrispPictureSingleExplorer.search();
+                        }else {
+                            alert("文件上传失败，请重试！");
+                        }
+                    }else {
+                        $.ajax({
+                            url: "index.php?do=CrispInfrastructure",
+                            async: false,
+                            type: "GET",
+                            data: {'action':'getPublicAdminImg'},
+                            success: function (result) {
+                                CrispPictureSingleExplorer.initialize(JSON.parse(result));
+                                CrispPictureSingleExplorer.getImage();
+                            }
+                        });
+                    }
+                },
+                error:function(data){
+                    alert("文件上传失败，请重试！");
+                }
+            });
+        }
+    };
+
+    $('#timeToSearch').bind('input propertychange', function() {CrispPictureSingleExplorer.search();});
+
+    // <?php CrispInfrastructureModel::getPublicAdminImg();?>
+    CrispPictureSingleExplorer.initialize();
+
+    function deleteImage(elm){
+        $(elm).prev().attr("src", "./resource/images/nopic.jpg");
+        $(elm).parent().parent().find("input").val("");
+    }
+
+</script>

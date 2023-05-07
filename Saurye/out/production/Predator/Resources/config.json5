@@ -1,0 +1,30 @@
+{
+  "IlluminationSystem": {
+    "WizardParameter": "do",
+    "ControlParameter": "control",
+    "ModelParameter": "action",
+    "ModelClassSuffix" : "Model",
+    "ControlClassSuffix" : "Control",
+    "DefaultErrorPageTpl": "/pinecone/error.tpl.jsp",
+    "JavaWebInfoSuffix": "/WEB-INF",
+    "TemplatePath": "/template/",
+    "ResourcesPath": "Resources",
+    "WizardSummoner"     :  "Pinecone.Framework.Util.Net.Illumination.JSONBasedWizardSummoner",
+
+    "UploadConfig": {
+      "SingleFileSizeMax" : 104857600,
+      "SumFileSizeMax": 209715200,
+      "UploadEncode": "UTF-8",
+      "UploadTempDir": "M:/Temp/Illumination"
+    },
+
+    "Hosts": {
+      "Predator": "predator.json5"
+    },
+
+    "PublicWizardConfig": {
+      "NaughtyGeniesSifted": true,
+      "OtherNaughtyGenies": []
+    }
+  }
+}

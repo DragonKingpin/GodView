@@ -1,0 +1,2472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Saurye:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6933ea62-5b85-432a-aeb9-ae732a4bb005" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Predator$Predator.ic" NAME="Predator Coverage Results" MODIFIED="1636214567638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Predator.System.Infrastructure.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Predator$Pinecone.ic" NAME="Pinecone Coverage Results" MODIFIED="1613902107659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Pinecone.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DependenciesAnalyzeManager">
+    <option name="forwardDirection" value="false" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Predator" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Saurye/System/PredatorArchWizardum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
+              <folding>
+                <element signature="e#2333#2508#0" />
+                <element signature="e#2514#2999#0" />
+                <element signature="e#3005#3654#0" />
+                <element signature="e#5140#5834#0" />
+                <element signature="e#5840#7197#0" />
+                <element signature="e#7203#7754#0" />
+                <element signature="e#7760#8183#0" />
+                <element signature="e#8505#9002#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Saurye/System/PredatorGenieBottle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="method#dispatch#0;class#PredatorGenieBottle#0" />
+                <element signature="method#defaultGenie#0;class#PredatorGenieBottle#0" />
+                <element signature="method#beforeGenieInvoke#0;class#PredatorGenieBottle#0" />
+                <element signature="method#afterGenieInvoked#0;class#PredatorGenieBottle#0" />
+                <element signature="method#prospectGlobalOccupation#0;class#PredatorGenieBottle#0" />
+                <element signature="method#prospectGenieOccupation#0;class#PredatorGenieBottle#0" />
+                <element signature="method#prospectGenieOccupation#1;class#PredatorGenieBottle#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/ArchConnectDispatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="171" selection-start-line="171" selection-end-line="171" />
+              <folding>
+                <element signature="e#3834#4091#0" />
+                <element signature="e#4097#4253#0" />
+                <element signature="e#4259#4418#0" />
+                <element signature="e#4424#4579#0" />
+                <element signature="e#4585#4742#0" />
+                <element signature="e#4748#4906#0" />
+                <element signature="e#4912#5069#0" />
+                <element signature="e#5076#5234#0" />
+                <element signature="e#5240#5488#0" />
+                <element signature="e#5494#5786#0" />
+                <element signature="e#5795#6433#0" />
+                <element signature="e#6439#6696#0" />
+                <element signature="e#6702#6886#0" />
+                <element signature="e#6892#7074#0" />
+                <element signature="e#7080#7262#0" />
+                <element signature="e#7268#7443#0" />
+                <element signature="e#7452#7527#0" />
+                <element signature="e#7533#7609#0" />
+                <element signature="e#7615#7762#0" />
+                <element signature="e#7768#7961#0" />
+                <element signature="e#7967#8782#0" />
+                <element signature="e#8788#9943#0" />
+                <element signature="e#9949#10318#0" />
+                <element signature="e#10324#12223#0" />
+                <element signature="e#12229#12628#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/ArchRouterDispatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#RouterClass#0;class#ArchRouterDispatcher#0" />
+                <element signature="class#RouterMethod#0;class#ArchRouterDispatcher#0" />
+                <element signature="method#urlNormalize#0;class#ArchRouterDispatcher#0" />
+                <element signature="method#fetchPaths#0;class#ArchRouterDispatcher#0" />
+                <element signature="method#fetchRouterClass#0;class#ArchRouterDispatcher#0" />
+                <element signature="method#fetchRouterMethod#0;class#ArchRouterDispatcher#0" />
+                <element signature="method#fetchRouterMaps#0;class#ArchRouterDispatcher#0" />
+                <element signature="method#ArchRouterDispatcher#0;class#ArchRouterDispatcher#0" />
+                <element signature="method#queryRoutum#0;class#ArchRouterDispatcher#0" />
+                <element signature="method#spawnPagesion#0;class#ArchRouterDispatcher#0" />
+                <element signature="method#spawnController#0;class#ArchRouterDispatcher#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Saurye/Wizard/Public/undefined/undefined.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/SystemServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="851">
+              <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Saurye/Wizard/Public/undefined/undefinedControl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+              <folding>
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Saurye/System/PredatorArchWizard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="method#getWizardProto#0;class#PredatorArchWizard#0" />
+                <element signature="e#679#680#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Singleton" />
+        <option value="jsf" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getWordSynonymTree</find>
+      <find>./root</find>
+      <find>/root</find>
+      <find>MySQLLinker</find>
+      <find>Driver</find>
+      <find>49980</find>
+      <find>SystemServlet</find>
+      <find>SystemQueryServlet</find>
+      <find>&amp;control</find>
+      <find>JSONBasedControl</find>
+      <find>arb@rednest.cn</find>
+      <find>favicon.ico</find>
+      <find>invokeViewRenderSequence</find>
+      <find>render()</find>
+      <find>src=&quot;./pinecone/assets/pinecone.png&quot;</find>
+      <find>IlluminationSystem</find>
+      <find>.getAnnotations()</find>
+      <find>if( annotation instanceof</find>
+      <find>isAssignableFrom</find>
+      <find>Predator.</find>
+      <find>Saurye.js</find>
+      <find>getModularConfig</find>
+      <find>vocationName</find>
+      <find>this.parent()</find>
+      <find>mbGlobalEnchanter</find>
+      <find>getParentMatrix</find>
+      <find>it supported versatile</find>
+      <find>请输入您欲探索的内容！</find>
+      <find>What do you want?</find>
+      <find>M:/</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>collectedPamphletList</replace>
+      <replace>造句本</replace>
+      <replace>sentenceMassDelete</replace>
+      <replace>tSen</replace>
+      <replace>megaGlossary</replace>
+      <replace>megaPamplet</replace>
+      <replace>megaPamphlet</replace>
+      <replace>datetime</replace>
+      <replace>page.interact.refresh()</replace>
+      <replace>\n</replace>
+      <replace>Hazelnut Predator</replace>
+      <replace>getHostSystem</replace>
+      <replace>Sessiom sessiom</replace>
+      <replace>this.mSession.getRequest()</replace>
+      <replace>this.mSession.getResponse()</replace>
+      <replace>mParentSystem</replace>
+      <replace>getConnection</replace>
+      <replace>afterConnectionAccepted</replace>
+      <replace>import Pinecone.Framework.Util.Summer.ArchConnection;</replace>
+      <replace>ArchConnection connection</replace>
+      <replace>getSession</replace>
+      <replace>mDispatcher</replace>
+      <replace>/root</replace>
+      <replace>SystemServlet</replace>
+      <replace>JSONBasedModel</replace>
+      <replace>getPrivateConfig</replace>
+      <replace>this.system()</replace>
+      <replace>mb</replace>
+      <replace>mbC</replace>
+      <replace>What do you want?</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\MyFiles\CodeScript\Project\Hazelnut\Predator\Predator\out</dir>
+      <dir>E:\MyFiles\CodeScript\Project\Hazelnut\Predator\Predator\src\Predator\System</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/prototype/ConnectDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/prototype/RouterDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/prototype/HostSystem.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/ArchHostSystem.java" />
+        <option value="$PROJECT_DIR$/src/Predator/System/Predator.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Pinecone.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/prototype/Pagesion.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/prototype/Controller.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/prototype/Component.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/prototype/RouterMapping.java" />
+        <option value="$PROJECT_DIR$/src/Predator/Wizard/Public/undefined/undefinedModel.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/template/Admin/AdminUserManage.jsp" />
+        <option value="$PROJECT_DIR$/src/Resources/predator.json5" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/System/Prototype/Prototype.java" />
+        <option value="$PROJECT_DIR$/src/Saurye/System/PredatorGenieBottle.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/prototype/JSONBasedSummoner.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/WizardSummoner.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/ArchRouterDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/prototype/WizardSoul.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/prototype/Wizard.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/ArchWizard.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/WizardProxyLayer.java" />
+        <option value="$PROJECT_DIR$/src/Saurye/System/PredatorArchWizard.java" />
+        <option value="$PROJECT_DIR$/src/Saurye/System/CurrencyTemplate.java" />
+        <option value="$PROJECT_DIR$/src/Saurye/System/Infrastructure/JasperFrame.java" />
+        <option value="$PROJECT_DIR$/src/Saurye/System/Authority/UserCertifier.java" />
+        <option value="$PROJECT_DIR$/src/Saurye/Elements/Basic/User.java" />
+        <option value="$PROJECT_DIR$/src/Saurye/Wizard/Admin/AdminUserManage/AdminUserManageModel.java" />
+        <option value="$PROJECT_DIR$/src/Saurye/Wizard/Public/UnifyLogin/UnifyLoginControl.java" />
+        <option value="$PROJECT_DIR$/src/Saurye/Wizard/Public/undefined/undefinedModel.java" />
+        <option value="$PROJECT_DIR$/src/Saurye/Peripheral/Skill/MultipleSoulCoach.java" />
+        <option value="$PROJECT_DIR$/src/Saurye/Wizard/Admin/AdminUserManage/AdminUserManageControl.java" />
+        <option value="$PROJECT_DIR$/src/Saurye/Wizard/User/WordExplicater/WordExplicaterModel.java" />
+        <option value="$PROJECT_DIR$/src/Saurye/Peripheral/Skill/Util/FileHelper.java" />
+        <option value="$PROJECT_DIR$/src/Saurye/Peripheral/Equipment/EquipmentPeddlerSour.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/prototype/Wizardum.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/ArchWizardum.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/prototype/Pageson.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/ArchPagesion.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/ArchPageson.java" />
+        <option value="$PROJECT_DIR$/src/Saurye/System/PredatorArchWizardum.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/SystemSpawner.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/prototype/WizardSummoner.java" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/ArchWizardSummoner.java" />
+        <option value="$PROJECT_DIR$/src/Saurye/System/PredatorWizardSummoner.java" />
+        <option value="$PROJECT_DIR$/web/pinecone/error.tpl.jsp" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Unit/FuzzyTreeMap.java" />
+        <option value="$USER_HOME$/Desktop/New folder/predator.json5" />
+        <option value="$USER_HOME$/Desktop/predator.json5" />
+        <option value="$PROJECT_DIR$/src/Resources/config.json5" />
+        <option value="$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/ArchConnectDispatcher.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="446" />
+    <option name="y" value="38" />
+    <option name="width" value="1932" />
+    <option name="height" value="1021" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Saurye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Saurye" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Saurye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Saurye" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Saurye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Saurye" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Saurye" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Saurye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Saurye" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Saurye" type="462c0819:PsiDirectoryNode" />
+              <item name="Wizard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Saurye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Saurye" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Saurye" type="462c0819:PsiDirectoryNode" />
+              <item name="Wizard" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Saurye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Saurye" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Saurye" type="462c0819:PsiDirectoryNode" />
+              <item name="Wizard" type="462c0819:PsiDirectoryNode" />
+              <item name="System" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Saurye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Saurye" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Saurye" type="462c0819:PsiDirectoryNode" />
+              <item name="Wizard" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Saurye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Saurye" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Saurye" type="462c0819:PsiDirectoryNode" />
+              <item name="Wizard" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+              <item name="GeniusTranslator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Saurye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Saurye" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Saurye" type="462c0819:PsiDirectoryNode" />
+              <item name="Wizard" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+              <item name="NovelGrimoire" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Saurye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Saurye" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1680426708563" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Web/Java/SocketServer" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyFiles\CodeScript\Project\Hazelnut\Predator\Predator\web\root\assets\js" />
+      <recent name="E:\MyFiles\CodeScript\Project\Hazelnut\Predator\Predator\src\Predator\Wizard\Public\MyTest" />
+      <recent name="E:\MyFiles\CodeScript\Project\Hazelnut\Predator\Predator\src\Predator\Wizard\Public" />
+      <recent name="E:\MyFiles\CodeScript\Project\Cashew\SkyNet\src\pinecone\Framework\Library" />
+      <recent name="E:\MyFiles\CodeScript\Project\Cashew\SkyNet\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MyFiles\CodeScript\Project\Hazelnut\Sauron\Predator\web\root\assets\img" />
+      <recent name="E:\MyFiles\CodeScript\Project\Hazelnut\Predator\Predator\web\root\assets\img" />
+      <recent name="E:\MyFiles\CodeScript\Project\Hazelnut\Predator\Predator\web\pinecone\assets" />
+      <recent name="E:\MyFiles\CodeScript\Project\Hazelnut\Predator\Predator\web\root\root\User\img\pamphlet\sentence" />
+      <recent name="E:\MyFiles\CodeScript\Project\Hazelnut\Predator\Predator\web\root\root\User\img\pamphlet\glossary" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Predator">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pinecone" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="D:\ProgramFiles\ToolChains\Java\JDK1.8x64\jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Pinecone.Pinecone" />
+      <module name="Saurye" />
+      <option name="VM_PARAMETERS" value="-Xmx12000m " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pinecone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Predator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8_64" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Saurye.System.Predator" />
+      <module name="Saurye" />
+      <option name="VM_PARAMETERS" value="-Xmx12000m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Saurye.System.Infrastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Predator" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.47" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="BROWSER_ID" value="16bf23d4-93e0-4ffc-bfd6-cb13575177b0" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Xmx1200m" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="Saurye:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="SkyNetHost" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49497" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Saurye:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Pinecone" />
+      <item itemvalue="Application.Predator" />
+      <item itemvalue="Tomcat Server.Predator" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Predator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6933ea62-5b85-432a-aeb9-ae732a4bb005" name="Default" comment="" />
+      <created>1523709312218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523709312218</updated>
+      <workItem from="1523709314406" duration="2253000" />
+      <workItem from="1523799534990" duration="17000" />
+      <workItem from="1523805810062" duration="12000" />
+      <workItem from="1523870586230" duration="123000" />
+      <workItem from="1523870993224" duration="61000" />
+      <workItem from="1523965735940" duration="70000" />
+      <workItem from="1529128789257" duration="367000" />
+      <workItem from="1593942634708" duration="12626000" />
+      <workItem from="1593956773753" duration="5000" />
+      <workItem from="1593956820105" duration="6624000" />
+      <workItem from="1594037995905" duration="506000" />
+      <workItem from="1594038521809" duration="267000" />
+      <workItem from="1594038806277" duration="6000" />
+      <workItem from="1594050219710" duration="18000" />
+      <workItem from="1594131649579" duration="618000" />
+      <workItem from="1594180859710" duration="2381000" />
+      <workItem from="1594358455996" duration="28175000" />
+      <workItem from="1594447524663" duration="3372000" />
+      <workItem from="1594451848793" duration="51000" />
+      <workItem from="1594451919377" duration="34852000" />
+      <workItem from="1594492728742" duration="353000" />
+      <workItem from="1594522735537" duration="12158000" />
+      <workItem from="1594535965923" duration="3007000" />
+      <workItem from="1594906942024" duration="1294000" />
+      <workItem from="1594965918299" duration="6693000" />
+      <workItem from="1595079822600" duration="3421000" />
+      <workItem from="1595138826144" duration="91000" />
+      <workItem from="1595148938462" duration="8972000" />
+      <workItem from="1595231118395" duration="2167000" />
+      <workItem from="1595233364710" duration="2000" />
+      <workItem from="1595314804165" duration="615000" />
+      <workItem from="1595343688974" duration="987000" />
+      <workItem from="1595350982437" duration="1466000" />
+      <workItem from="1595421191331" duration="18289000" />
+      <workItem from="1595473553082" duration="18492000" />
+      <workItem from="1596097329027" duration="610000" />
+      <workItem from="1596181762471" duration="1928000" />
+      <workItem from="1597484797871" duration="8000" />
+      <workItem from="1597756750115" duration="15612000" />
+      <workItem from="1597813827772" duration="198000" />
+      <workItem from="1597820845382" duration="9720000" />
+      <workItem from="1597976708885" duration="5946000" />
+      <workItem from="1598431916125" duration="3777000" />
+      <workItem from="1598488740401" duration="5237000" />
+      <workItem from="1598507272850" duration="771000" />
+      <workItem from="1598527767932" duration="1204000" />
+      <workItem from="1600614299579" duration="802000" />
+      <workItem from="1600625963626" duration="5000" />
+      <workItem from="1600626331980" duration="793000" />
+      <workItem from="1600710801244" duration="74000" />
+      <workItem from="1601291770459" duration="749000" />
+      <workItem from="1601661642000" duration="22000" />
+      <workItem from="1602329571531" duration="53000" />
+      <workItem from="1602329726128" duration="285000" />
+      <workItem from="1602334038048" duration="618000" />
+      <workItem from="1602677983540" duration="208000" />
+      <workItem from="1603639518042" duration="1108000" />
+      <workItem from="1603987792876" duration="479000" />
+      <workItem from="1604054051717" duration="219000" />
+      <workItem from="1604054291151" duration="237000" />
+      <workItem from="1604054550751" duration="10000" />
+      <workItem from="1604059608738" duration="309000" />
+      <workItem from="1604216363132" duration="8000" />
+      <workItem from="1604217534095" duration="42000" />
+      <workItem from="1604405683243" duration="38000" />
+      <workItem from="1604460327088" duration="58000" />
+      <workItem from="1604487454032" duration="1258000" />
+      <workItem from="1604566455992" duration="34000" />
+      <workItem from="1605199227969" duration="21000" />
+      <workItem from="1605199785557" duration="242000" />
+      <workItem from="1605200110496" duration="10000" />
+      <workItem from="1605200128421" duration="45000" />
+      <workItem from="1605201701544" duration="450000" />
+      <workItem from="1605202156045" duration="3353000" />
+      <workItem from="1605243800307" duration="1245000" />
+      <workItem from="1605245368997" duration="21000" />
+      <workItem from="1605285648386" duration="365000" />
+      <workItem from="1605359934527" duration="3049000" />
+      <workItem from="1605367001338" duration="2652000" />
+      <workItem from="1605452451660" duration="5821000" />
+      <workItem from="1605528431620" duration="2800000" />
+      <workItem from="1605534931721" duration="57000" />
+      <workItem from="1605535085820" duration="27000" />
+      <workItem from="1605535183624" duration="11175000" />
+      <workItem from="1605702665949" duration="15703000" />
+      <workItem from="1605725003419" duration="136000" />
+      <workItem from="1605765325170" duration="468000" />
+      <workItem from="1605767302332" duration="17000" />
+      <workItem from="1605767442995" duration="12000" />
+      <workItem from="1605786693267" duration="7528000" />
+      <workItem from="1605841028879" duration="605000" />
+      <workItem from="1605873103598" duration="8000" />
+      <workItem from="1605875674449" duration="33000" />
+      <workItem from="1605937394274" duration="77000" />
+      <workItem from="1605969433641" duration="6315000" />
+      <workItem from="1606059075341" duration="599000" />
+      <workItem from="1606061712595" duration="2017000" />
+      <workItem from="1606137943170" duration="4745000" />
+      <workItem from="1606150712903" duration="1868000" />
+      <workItem from="1606152615350" duration="1600000" />
+      <workItem from="1606154425615" duration="6000" />
+      <workItem from="1606157061023" duration="1331000" />
+      <workItem from="1606198021379" duration="4786000" />
+      <workItem from="1606213852375" duration="703000" />
+      <workItem from="1606222320895" duration="697000" />
+      <workItem from="1606282839793" duration="343000" />
+      <workItem from="1606303240305" duration="12175000" />
+      <workItem from="1606328007500" duration="599000" />
+      <workItem from="1606389818618" duration="12911000" />
+      <workItem from="1606404327568" duration="7624000" />
+      <workItem from="1606487346499" duration="22041000" />
+      <workItem from="1606509663589" duration="143000" />
+      <workItem from="1606538490306" duration="7828000" />
+      <workItem from="1606551807416" duration="64000" />
+      <workItem from="1606558406564" duration="2721000" />
+      <workItem from="1606653748490" duration="12719000" />
+      <workItem from="1606676678736" duration="5910000" />
+      <workItem from="1606735251584" duration="8205000" />
+      <workItem from="1607003077449" duration="191000" />
+      <workItem from="1607008074516" duration="16283000" />
+      <workItem from="1607057952322" duration="19122000" />
+      <workItem from="1607083221312" duration="18152000" />
+      <workItem from="1607107109333" duration="24000" />
+      <workItem from="1607154888999" duration="10183000" />
+      <workItem from="1607166788924" duration="16663000" />
+      <workItem from="1607244709157" duration="40485000" />
+      <workItem from="1607288269212" duration="43000" />
+      <workItem from="1607288407822" duration="195000" />
+      <workItem from="1607314622637" duration="13685000" />
+      <workItem from="1607341077217" duration="155000" />
+      <workItem from="1607341462128" duration="179000" />
+      <workItem from="1607341870781" duration="205000" />
+      <workItem from="1607342210374" duration="4960000" />
+      <workItem from="1607352849147" duration="722000" />
+      <workItem from="1607405368018" duration="654000" />
+      <workItem from="1607415666469" duration="8268000" />
+      <workItem from="1607426607308" duration="2302000" />
+      <workItem from="1607523359764" duration="3357000" />
+      <workItem from="1607534387110" duration="6199000" />
+      <workItem from="1607579293841" duration="8291000" />
+      <workItem from="1607840894085" duration="5352000" />
+      <workItem from="1607850882521" duration="1160000" />
+      <workItem from="1607853475713" duration="1292000" />
+      <workItem from="1607862972059" duration="2591000" />
+      <workItem from="1607871769938" duration="852000" />
+      <workItem from="1607944696586" duration="12572000" />
+      <workItem from="1607960173781" duration="81000" />
+      <workItem from="1607960272313" duration="6351000" />
+      <workItem from="1607968604773" duration="10436000" />
+      <workItem from="1608029362366" duration="15195000" />
+      <workItem from="1608050153910" duration="3725000" />
+      <workItem from="1608121395219" duration="4150000" />
+      <workItem from="1608205678350" duration="1373000" />
+      <workItem from="1608212397772" duration="618000" />
+      <workItem from="1608225311730" duration="9660000" />
+      <workItem from="1608264994761" duration="1780000" />
+      <workItem from="1608286870902" duration="15425000" />
+      <workItem from="1608382873661" duration="729000" />
+      <workItem from="1608390548921" duration="603000" />
+      <workItem from="1608464582024" duration="2473000" />
+      <workItem from="1608473560574" duration="1309000" />
+      <workItem from="1608555666332" duration="1947000" />
+      <workItem from="1608787000815" duration="18000" />
+      <workItem from="1608817067809" duration="2421000" />
+      <workItem from="1608828604821" duration="2921000" />
+      <workItem from="1608889541042" duration="1439000" />
+      <workItem from="1608892661347" duration="8680000" />
+      <workItem from="1608967231563" duration="1661000" />
+      <workItem from="1608996035908" duration="39000" />
+      <workItem from="1609055290164" duration="1667000" />
+      <workItem from="1609084086654" duration="318000" />
+      <workItem from="1609137736728" duration="1980000" />
+      <workItem from="1609219240315" duration="3102000" />
+      <workItem from="1609247202235" duration="2322000" />
+      <workItem from="1609331361880" duration="2288000" />
+      <workItem from="1609401729371" duration="1765000" />
+      <workItem from="1609411541609" duration="856000" />
+      <workItem from="1609522549006" duration="80000" />
+      <workItem from="1609522787588" duration="1041000" />
+      <workItem from="1609563218871" duration="2307000" />
+      <workItem from="1609586695753" duration="868000" />
+      <workItem from="1609773980375" duration="83000" />
+      <workItem from="1609916771305" duration="2627000" />
+      <workItem from="1609999203536" duration="3346000" />
+      <workItem from="1610081005924" duration="5552000" />
+      <workItem from="1610250958244" duration="31986000" />
+      <workItem from="1610334587273" duration="23326000" />
+      <workItem from="1610426739657" duration="25505000" />
+      <workItem from="1610506532083" duration="6317000" />
+      <workItem from="1610601693649" duration="3465000" />
+      <workItem from="1612507566318" duration="9539000" />
+      <workItem from="1612526188886" duration="6505000" />
+      <workItem from="1612581951091" duration="43046000" />
+      <workItem from="1612683322323" duration="31410000" />
+      <workItem from="1612760604400" duration="5659000" />
+      <workItem from="1612866483408" duration="12160000" />
+      <workItem from="1612938981798" duration="19191000" />
+      <workItem from="1613023824954" duration="596000" />
+      <workItem from="1613107006036" duration="2167000" />
+      <workItem from="1613284615401" duration="669000" />
+      <workItem from="1613357518609" duration="17733000" />
+      <workItem from="1613443760331" duration="4126000" />
+      <workItem from="1613622337657" duration="47000" />
+      <workItem from="1613625254135" duration="3831000" />
+      <workItem from="1613716186360" duration="6832000" />
+      <workItem from="1613795842485" duration="1977000" />
+      <workItem from="1613901178841" duration="2264000" />
+      <workItem from="1613903671624" duration="7381000" />
+      <workItem from="1613965914004" duration="14187000" />
+      <workItem from="1614047520632" duration="3820000" />
+      <workItem from="1614144520307" duration="2620000" />
+      <workItem from="1614489985789" duration="8381000" />
+      <workItem from="1614579020715" duration="34645000" />
+      <workItem from="1614657346627" duration="37563000" />
+      <workItem from="1614741960506" duration="42495000" />
+      <workItem from="1614856684372" duration="1416000" />
+      <workItem from="1614932443122" duration="29583000" />
+      <workItem from="1615006033613" duration="40982000" />
+      <workItem from="1615101504773" duration="22800000" />
+      <workItem from="1615184522308" duration="42948000" />
+      <workItem from="1615272614443" duration="12112000" />
+      <workItem from="1615362710873" duration="12606000" />
+      <workItem from="1615444364410" duration="6170000" />
+      <workItem from="1615523594532" duration="35247000" />
+      <workItem from="1615612627828" duration="43466000" />
+      <workItem from="1615785260281" duration="30106000" />
+      <workItem from="1615872369876" duration="45587000" />
+      <workItem from="1615960102329" duration="18696000" />
+      <workItem from="1616047977349" duration="20448000" />
+      <workItem from="1616130493373" duration="6000" />
+      <workItem from="1616130608274" duration="46337000" />
+      <workItem from="1616212394620" duration="42320000" />
+      <workItem from="1616309342625" duration="40873000" />
+      <workItem from="1616396660335" duration="40573000" />
+      <workItem from="1616477847457" duration="12941000" />
+      <workItem from="1616567874820" duration="10863000" />
+      <workItem from="1616582614098" duration="19299000" />
+      <workItem from="1616608831989" duration="5928000" />
+      <workItem from="1616647224410" duration="45579000" />
+      <workItem from="1616744103600" duration="7406000" />
+      <workItem from="1616908166777" duration="12693000" />
+      <workItem from="1617000940129" duration="719000" />
+      <workItem from="1617087170589" duration="823000" />
+      <workItem from="1617356331861" duration="237000" />
+      <workItem from="1617700087444" duration="7541000" />
+      <workItem from="1617868085986" duration="36715000" />
+      <workItem from="1617952041596" duration="24785000" />
+      <workItem from="1618022936582" duration="51064000" />
+      <workItem from="1618108769459" duration="15987000" />
+      <workItem from="1618217723775" duration="18127000" />
+      <workItem from="1618284914913" duration="33220000" />
+      <workItem from="1618339635650" duration="47000" />
+      <workItem from="1618339867599" duration="3164000" />
+      <workItem from="1618370171219" duration="35678000" />
+      <workItem from="1618459355719" duration="13387000" />
+      <workItem from="1618553651732" duration="30916000" />
+      <workItem from="1618615725980" duration="644000" />
+      <workItem from="1618822765609" duration="1185000" />
+      <workItem from="1618893358928" duration="620000" />
+      <workItem from="1618933761039" duration="29000" />
+      <workItem from="1618979605877" duration="13839000" />
+      <workItem from="1619061157863" duration="818000" />
+      <workItem from="1619160223079" duration="1367000" />
+      <workItem from="1619252000496" duration="5924000" />
+      <workItem from="1619321898915" duration="1392000" />
+      <workItem from="1619408077737" duration="2031000" />
+      <workItem from="1619496615950" duration="867000" />
+      <workItem from="1619497732913" duration="627000" />
+      <workItem from="1619589405118" duration="610000" />
+      <workItem from="1619670575411" duration="4704000" />
+      <workItem from="1619755421094" duration="660000" />
+      <workItem from="1619776558801" duration="1759000" />
+      <workItem from="1619943148264" duration="932000" />
+      <workItem from="1619944899994" duration="639000" />
+      <workItem from="1620048246295" duration="604000" />
+      <workItem from="1620110977120" duration="2055000" />
+      <workItem from="1620195088694" duration="645000" />
+      <workItem from="1620218393249" duration="632000" />
+      <workItem from="1620361155380" duration="12135000" />
+      <workItem from="1620449367383" duration="625000" />
+      <workItem from="1620476102890" duration="1355000" />
+      <workItem from="1620549243829" duration="3638000" />
+      <workItem from="1620624462070" duration="31162000" />
+      <workItem from="1620699743793" duration="23128000" />
+      <workItem from="1621072001005" duration="1254000" />
+      <workItem from="1621236099958" duration="1345000" />
+      <workItem from="1621582813884" duration="604000" />
+      <workItem from="1621694543276" duration="485000" />
+      <workItem from="1621853959382" duration="795000" />
+      <workItem from="1622041508884" duration="622000" />
+      <workItem from="1622097763265" duration="1813000" />
+      <workItem from="1622118798991" duration="4498000" />
+      <workItem from="1622127105811" duration="32000" />
+      <workItem from="1622127436321" duration="880000" />
+      <workItem from="1622130110395" duration="2284000" />
+      <workItem from="1622182024382" duration="2405000" />
+      <workItem from="1622191967122" duration="3355000" />
+      <workItem from="1622370468307" duration="4516000" />
+      <workItem from="1622465876528" duration="346000" />
+      <workItem from="1622473104344" duration="3456000" />
+      <workItem from="1622517453137" duration="8821000" />
+      <workItem from="1622604302564" duration="112000" />
+      <workItem from="1622604682444" duration="774000" />
+      <workItem from="1622807156277" duration="678000" />
+      <workItem from="1623303510204" duration="609000" />
+      <workItem from="1623676279475" duration="7831000" />
+      <workItem from="1623734518574" duration="650000" />
+      <workItem from="1623742321552" duration="265000" />
+      <workItem from="1623742919342" duration="3025000" />
+      <workItem from="1623767245944" duration="1662000" />
+      <workItem from="1623947912762" duration="1248000" />
+      <workItem from="1624014306744" duration="599000" />
+      <workItem from="1624259640508" duration="1201000" />
+      <workItem from="1624508732118" duration="687000" />
+      <workItem from="1624512885075" duration="83000" />
+      <workItem from="1624518276723" duration="24000" />
+      <workItem from="1624518317134" duration="274000" />
+      <workItem from="1624550077889" duration="1202000" />
+      <workItem from="1624631230832" duration="606000" />
+      <workItem from="1624677239388" duration="84000" />
+      <workItem from="1624711188491" duration="634000" />
+      <workItem from="1624765786519" duration="5000" />
+      <workItem from="1624770681646" duration="737000" />
+      <workItem from="1624772048626" duration="1404000" />
+      <workItem from="1624850949084" duration="319000" />
+      <workItem from="1624897306627" duration="1420000" />
+      <workItem from="1624937144305" duration="329000" />
+      <workItem from="1624939088118" duration="619000" />
+      <workItem from="1624940035810" duration="5617000" />
+      <workItem from="1624964943298" duration="60000" />
+      <workItem from="1625045927554" duration="628000" />
+      <workItem from="1625047023041" duration="395000" />
+      <workItem from="1625047720668" duration="71000" />
+      <workItem from="1625114263098" duration="610000" />
+      <workItem from="1625238688966" duration="60000" />
+      <workItem from="1625246118332" duration="356000" />
+      <workItem from="1625552740600" duration="703000" />
+      <workItem from="1625560591014" duration="271000" />
+      <workItem from="1625579387447" duration="346000" />
+      <workItem from="1625654065328" duration="640000" />
+      <workItem from="1625723815017" duration="764000" />
+      <workItem from="1625746105118" duration="694000" />
+      <workItem from="1626132538436" duration="718000" />
+      <workItem from="1626233734117" duration="8411000" />
+      <workItem from="1626336058315" duration="3925000" />
+      <workItem from="1626404690560" duration="9643000" />
+      <workItem from="1626488682614" duration="1410000" />
+      <workItem from="1626597549170" duration="1208000" />
+      <workItem from="1626610366172" duration="1825000" />
+      <workItem from="1626625693719" duration="4015000" />
+      <workItem from="1626659264900" duration="3941000" />
+      <workItem from="1626853774550" duration="632000" />
+      <workItem from="1626925296167" duration="1217000" />
+      <workItem from="1626940011095" duration="629000" />
+      <workItem from="1627203493920" duration="1199000" />
+      <workItem from="1627295000366" duration="3344000" />
+      <workItem from="1627355297702" duration="5039000" />
+      <workItem from="1627447345318" duration="442000" />
+      <workItem from="1627536481711" duration="4252000" />
+      <workItem from="1627612155506" duration="3516000" />
+      <workItem from="1627699157396" duration="639000" />
+      <workItem from="1627718903627" duration="1209000" />
+      <workItem from="1627785828887" duration="77000" />
+      <workItem from="1627787253242" duration="75000" />
+      <workItem from="1627787866225" duration="395000" />
+      <workItem from="1627788752571" duration="5769000" />
+      <workItem from="1627828337223" duration="2100000" />
+      <workItem from="1627885704774" duration="649000" />
+      <workItem from="1627912138283" duration="37000" />
+      <workItem from="1627921272289" duration="1855000" />
+      <workItem from="1627963376792" duration="84000" />
+      <workItem from="1627963567269" duration="629000" />
+      <workItem from="1628060856556" duration="810000" />
+      <workItem from="1628088181610" duration="1579000" />
+      <workItem from="1628135006194" duration="611000" />
+      <workItem from="1628221666123" duration="655000" />
+      <workItem from="1628306605774" duration="1440000" />
+      <workItem from="1628312078391" duration="576000" />
+      <workItem from="1628318621812" duration="638000" />
+      <workItem from="1628569460522" duration="1326000" />
+      <workItem from="1628691904572" duration="71000" />
+      <workItem from="1629205604052" duration="91000" />
+      <workItem from="1630328927463" duration="4701000" />
+      <workItem from="1630337919795" duration="607000" />
+      <workItem from="1630424363096" duration="604000" />
+      <workItem from="1630592989069" duration="805000" />
+      <workItem from="1630661277325" duration="1772000" />
+      <workItem from="1630678467948" duration="134000" />
+      <workItem from="1630814672842" duration="1125000" />
+      <workItem from="1630922169496" duration="836000" />
+      <workItem from="1631094255125" duration="2701000" />
+      <workItem from="1631173471036" duration="736000" />
+      <workItem from="1631175742563" duration="216000" />
+      <workItem from="1631243228856" duration="1476000" />
+      <workItem from="1631244988161" duration="1021000" />
+      <workItem from="1631433542995" duration="938000" />
+      <workItem from="1631539260663" duration="683000" />
+      <workItem from="1631857474190" duration="175000" />
+      <workItem from="1631961184886" duration="647000" />
+      <workItem from="1632031902923" duration="1796000" />
+      <workItem from="1632107489194" duration="2094000" />
+      <workItem from="1632146788333" duration="617000" />
+      <workItem from="1632192454373" duration="1488000" />
+      <workItem from="1632202671372" duration="2698000" />
+      <workItem from="1632277508147" duration="10429000" />
+      <workItem from="1632307343043" duration="1227000" />
+      <workItem from="1632403387577" duration="609000" />
+      <workItem from="1632468411119" duration="1541000" />
+      <workItem from="1632547686697" duration="6101000" />
+      <workItem from="1632630703347" duration="4411000" />
+      <workItem from="1632716426421" duration="2993000" />
+      <workItem from="1632730935497" duration="2531000" />
+      <workItem from="1632979605460" duration="6763000" />
+      <workItem from="1633069068687" duration="631000" />
+      <workItem from="1633149432887" duration="4926000" />
+      <workItem from="1633237441084" duration="6345000" />
+      <workItem from="1633322297930" duration="3185000" />
+      <workItem from="1633428865178" duration="1292000" />
+      <workItem from="1633521326442" duration="1255000" />
+      <workItem from="1633581117850" duration="649000" />
+      <workItem from="1633690978978" duration="623000" />
+      <workItem from="1633746832028" duration="12150000" />
+      <workItem from="1633775846455" duration="3550000" />
+      <workItem from="1633796430442" duration="609000" />
+      <workItem from="1633961508518" duration="1223000" />
+      <workItem from="1634014772492" duration="3134000" />
+      <workItem from="1634048800103" duration="800000" />
+      <workItem from="1634120373784" duration="1397000" />
+      <workItem from="1634124047728" duration="41000" />
+      <workItem from="1634129164221" duration="1489000" />
+      <workItem from="1634276823670" duration="36000" />
+      <workItem from="1634282757316" duration="1854000" />
+      <workItem from="1634296404762" duration="2752000" />
+      <workItem from="1634393958631" duration="4417000" />
+      <workItem from="1634446694127" duration="6326000" />
+      <workItem from="1634475040843" duration="672000" />
+      <workItem from="1634529303900" duration="2403000" />
+      <workItem from="1634559189414" duration="15698000" />
+      <workItem from="1634609428840" duration="12623000" />
+      <workItem from="1634702692078" duration="7915000" />
+      <workItem from="1634736561035" duration="996000" />
+      <workItem from="1634782935747" duration="21161000" />
+      <workItem from="1634826084029" duration="10161000" />
+      <workItem from="1634890922982" duration="5329000" />
+      <workItem from="1634907131990" duration="2114000" />
+      <workItem from="1634962077156" duration="1655000" />
+      <workItem from="1635050457114" duration="1259000" />
+      <workItem from="1635129582362" duration="611000" />
+      <workItem from="1635134271044" duration="8876000" />
+      <workItem from="1635163222933" duration="1253000" />
+      <workItem from="1635226231053" duration="1860000" />
+      <workItem from="1635310032712" duration="1250000" />
+      <workItem from="1635322538793" duration="1273000" />
+      <workItem from="1635346797685" duration="1264000" />
+      <workItem from="1635398956755" duration="1369000" />
+      <workItem from="1635428074204" duration="743000" />
+      <workItem from="1635471941236" duration="11668000" />
+      <workItem from="1635559491434" duration="3958000" />
+      <workItem from="1635573578710" duration="2689000" />
+      <workItem from="1635578715210" duration="638000" />
+      <workItem from="1635657452399" duration="29372000" />
+      <workItem from="1635732866306" duration="5147000" />
+      <workItem from="1635738898077" duration="14125000" />
+      <workItem from="1635830188537" duration="6829000" />
+      <workItem from="1635913287564" duration="10517000" />
+      <workItem from="1635993568909" duration="14009000" />
+      <workItem from="1636032519422" duration="1282000" />
+      <workItem from="1636077543536" duration="1191000" />
+      <workItem from="1636099559506" duration="617000" />
+      <workItem from="1636117253887" duration="1700000" />
+      <workItem from="1636162846066" duration="29073000" />
+      <workItem from="1636202496950" duration="7581000" />
+      <workItem from="1636250958217" duration="133000" />
+      <workItem from="1636357161250" duration="68000" />
+      <workItem from="1636470033885" duration="99000" />
+      <workItem from="1636470324291" duration="14000" />
+      <workItem from="1636471882564" duration="42000" />
+      <workItem from="1636476394208" duration="502000" />
+      <workItem from="1636626384112" duration="722000" />
+      <workItem from="1637499828843" duration="63000" />
+      <workItem from="1637509941287" duration="733000" />
+      <workItem from="1637511497067" duration="2000" />
+      <workItem from="1637557299661" duration="987000" />
+      <workItem from="1637681051549" duration="229000" />
+      <workItem from="1637681296259" duration="867000" />
+      <workItem from="1637753537952" duration="741000" />
+      <workItem from="1637986603707" duration="1435000" />
+      <workItem from="1638017112480" duration="658000" />
+      <workItem from="1638107851187" duration="631000" />
+      <workItem from="1638287882341" duration="3000" />
+      <workItem from="1638622983284" duration="610000" />
+      <workItem from="1638969288616" duration="1220000" />
+      <workItem from="1639023689588" duration="98000" />
+      <workItem from="1639029993520" duration="1268000" />
+      <workItem from="1639064188349" duration="1276000" />
+      <workItem from="1639287388621" duration="127000" />
+      <workItem from="1639287779680" duration="91000" />
+      <workItem from="1639287909405" duration="17000" />
+      <workItem from="1639287978519" duration="4000" />
+      <workItem from="1639288017560" duration="108000" />
+      <workItem from="1639288130033" duration="1313000" />
+      <workItem from="1639290883492" duration="914000" />
+      <workItem from="1639293990855" duration="2970000" />
+      <workItem from="1639311583244" duration="7563000" />
+      <workItem from="1639327914017" duration="36000" />
+      <workItem from="1639372518988" duration="660000" />
+      <workItem from="1639380411664" duration="27000" />
+      <workItem from="1639380441309" duration="13000" />
+      <workItem from="1639380505219" duration="644000" />
+      <workItem from="1639462929141" duration="1911000" />
+      <workItem from="1639543959848" duration="597000" />
+      <workItem from="1640345638064" duration="49000" />
+      <workItem from="1640345828503" duration="36000" />
+      <workItem from="1640700133280" duration="613000" />
+      <workItem from="1640714271932" duration="634000" />
+      <workItem from="1641100395910" duration="603000" />
+      <workItem from="1641298945347" duration="763000" />
+      <workItem from="1641311986562" duration="624000" />
+      <workItem from="1641477714704" duration="56000" />
+      <workItem from="1641477788409" duration="4000" />
+      <workItem from="1641479726060" duration="651000" />
+      <workItem from="1641489538453" duration="655000" />
+      <workItem from="1641612731442" duration="12000" />
+      <workItem from="1641613427138" duration="2855000" />
+      <workItem from="1642252106141" duration="881000" />
+      <workItem from="1642253061140" duration="6000" />
+      <workItem from="1642253537826" duration="14000" />
+      <workItem from="1642254203900" duration="14000" />
+      <workItem from="1642258657493" duration="781000" />
+      <workItem from="1642259456215" duration="29000" />
+      <workItem from="1642259504492" duration="45000" />
+      <workItem from="1642259560997" duration="406000" />
+      <workItem from="1642266173391" duration="27000" />
+      <workItem from="1642266361092" duration="148000" />
+      <workItem from="1646144916670" duration="135000" />
+      <workItem from="1646145097094" duration="535000" />
+      <workItem from="1648301836281" duration="596000" />
+      <workItem from="1648552197043" duration="1457000" />
+      <workItem from="1648627536531" duration="36000" />
+      <workItem from="1648627585261" duration="142000" />
+      <workItem from="1648627781198" duration="36000" />
+      <workItem from="1648627907496" duration="60000" />
+      <workItem from="1648627980281" duration="2887000" />
+      <workItem from="1648650033507" duration="625000" />
+      <workItem from="1648887858726" duration="1588000" />
+      <workItem from="1650355859387" duration="958000" />
+      <workItem from="1650357221560" duration="613000" />
+      <workItem from="1650595446015" duration="619000" />
+      <workItem from="1650875807498" duration="890000" />
+      <workItem from="1650950470389" duration="632000" />
+      <workItem from="1651042974246" duration="692000" />
+      <workItem from="1651205819035" duration="633000" />
+      <workItem from="1651395034205" duration="778000" />
+      <workItem from="1651559641665" duration="676000" />
+      <workItem from="1652343263627" duration="646000" />
+      <workItem from="1652768544306" duration="61000" />
+      <workItem from="1652893643866" duration="979000" />
+      <workItem from="1652944460296" duration="4000" />
+      <workItem from="1652958493650" duration="1543000" />
+      <workItem from="1653321412901" duration="30000" />
+      <workItem from="1653896976641" duration="4622000" />
+      <workItem from="1653967979218" duration="9269000" />
+      <workItem from="1654048070683" duration="6169000" />
+      <workItem from="1654100157820" duration="85000" />
+      <workItem from="1654100329570" duration="678000" />
+      <workItem from="1654136716131" duration="1838000" />
+      <workItem from="1654357008466" duration="10000" />
+      <workItem from="1654401354875" duration="4283000" />
+      <workItem from="1654427251713" duration="611000" />
+      <workItem from="1654475958941" duration="2085000" />
+      <workItem from="1654506118072" duration="65000" />
+      <workItem from="1654506227463" duration="1218000" />
+      <workItem from="1654568023415" duration="725000" />
+      <workItem from="1654572075960" duration="184000" />
+      <workItem from="1657963689499" duration="607000" />
+      <workItem from="1658126484491" duration="620000" />
+      <workItem from="1658214612600" duration="649000" />
+      <workItem from="1658240578456" duration="328000" />
+      <workItem from="1658285732998" duration="640000" />
+      <workItem from="1658308309488" duration="615000" />
+      <workItem from="1658325377714" duration="1797000" />
+      <workItem from="1658371587732" duration="627000" />
+      <workItem from="1658411991213" duration="637000" />
+      <workItem from="1658454709411" duration="160000" />
+      <workItem from="1658454941555" duration="625000" />
+      <workItem from="1658458252429" duration="634000" />
+      <workItem from="1658713180442" duration="18000" />
+      <workItem from="1658716197209" duration="683000" />
+      <workItem from="1658829646979" duration="6000" />
+      <workItem from="1659060075308" duration="61000" />
+      <workItem from="1659323233687" duration="689000" />
+      <workItem from="1659341060772" duration="3928000" />
+      <workItem from="1659407388161" duration="625000" />
+      <workItem from="1659420427651" duration="628000" />
+      <workItem from="1659429753875" duration="1023000" />
+      <workItem from="1659443821031" duration="628000" />
+      <workItem from="1659489989772" duration="738000" />
+      <workItem from="1659507410536" duration="733000" />
+      <workItem from="1659533737790" duration="1190000" />
+      <workItem from="1659771140725" duration="33000" />
+      <workItem from="1659771430366" duration="650000" />
+      <workItem from="1659850207231" duration="581000" />
+      <workItem from="1659850833218" duration="2000" />
+      <workItem from="1659851481759" duration="5034000" />
+      <workItem from="1660020318693" duration="963000" />
+      <workItem from="1660135856577" duration="640000" />
+      <workItem from="1660322652518" duration="155000" />
+      <workItem from="1660361217054" duration="610000" />
+      <workItem from="1660368063684" duration="3784000" />
+      <workItem from="1660459661910" duration="3611000" />
+      <workItem from="1660527767392" duration="681000" />
+      <workItem from="1660553773423" duration="608000" />
+      <workItem from="1660618033581" duration="701000" />
+      <workItem from="1660632511089" duration="1764000" />
+      <workItem from="1660634328785" duration="81000" />
+      <workItem from="1660634491441" duration="2146000" />
+      <workItem from="1660718087829" duration="630000" />
+      <workItem from="1660790926438" duration="2553000" />
+      <workItem from="1660919763738" duration="682000" />
+      <workItem from="1661171076691" duration="598000" />
+      <workItem from="1661235378857" duration="3284000" />
+      <workItem from="1661257335924" duration="1309000" />
+      <workItem from="1661261408275" duration="610000" />
+      <workItem from="1661435518397" duration="596000" />
+      <workItem from="1661931329332" duration="3704000" />
+      <workItem from="1662211563239" duration="275000" />
+      <workItem from="1663072214861" duration="1025000" />
+      <workItem from="1664188751603" duration="280000" />
+      <workItem from="1664285995321" duration="17000" />
+      <workItem from="1664550289634" duration="315000" />
+      <workItem from="1665583020808" duration="1266000" />
+      <workItem from="1665976477831" duration="1576000" />
+      <workItem from="1666926485081" duration="2674000" />
+      <workItem from="1667052073869" duration="5593000" />
+      <workItem from="1667124538985" duration="1277000" />
+      <workItem from="1668169672725" duration="655000" />
+      <workItem from="1668185097442" duration="615000" />
+      <workItem from="1668270482512" duration="609000" />
+      <workItem from="1668399766068" duration="731000" />
+      <workItem from="1668514831785" duration="783000" />
+      <workItem from="1668604826597" duration="773000" />
+      <workItem from="1669033326789" duration="730000" />
+      <workItem from="1669537279423" duration="619000" />
+      <workItem from="1669546819912" duration="2857000" />
+      <workItem from="1669558392745" duration="1551000" />
+      <workItem from="1669696116446" duration="74000" />
+      <workItem from="1669783470923" duration="634000" />
+      <workItem from="1669785862715" duration="13000" />
+      <workItem from="1669805537233" duration="711000" />
+      <workItem from="1670072114637" duration="508000" />
+      <workItem from="1670592736230" duration="3541000" />
+      <workItem from="1670663144726" duration="16000" />
+      <workItem from="1670666346842" duration="21000" />
+      <workItem from="1670738495862" duration="1324000" />
+      <workItem from="1670739858140" duration="306000" />
+      <workItem from="1671346144199" duration="1336000" />
+      <workItem from="1671607393708" duration="1905000" />
+      <workItem from="1671816645852" duration="664000" />
+      <workItem from="1672764794756" duration="370000" />
+      <workItem from="1672845845458" duration="632000" />
+      <workItem from="1672916774832" duration="196000" />
+      <workItem from="1673770306153" duration="74000" />
+      <workItem from="1675690380612" duration="531000" />
+      <workItem from="1675691519098" duration="843000" />
+      <workItem from="1676198790921" duration="3499000" />
+      <workItem from="1676301935987" duration="958000" />
+      <workItem from="1676309693571" duration="71000" />
+      <workItem from="1676377234934" duration="662000" />
+      <workItem from="1677153733171" duration="4145000" />
+      <workItem from="1677251193353" duration="2000" />
+      <workItem from="1677397946704" duration="625000" />
+      <workItem from="1677494411481" duration="55000" />
+      <workItem from="1678180934529" duration="865000" />
+      <workItem from="1678361189518" duration="694000" />
+      <workItem from="1678777734538" duration="26187000" />
+      <workItem from="1678815039198" duration="7000" />
+      <workItem from="1678858822392" duration="10232000" />
+      <workItem from="1678883991376" duration="3884000" />
+      <workItem from="1678949188363" duration="1360000" />
+      <workItem from="1679053263329" duration="35000" />
+      <workItem from="1679388814980" duration="157000" />
+      <workItem from="1679389007753" duration="6000" />
+      <workItem from="1679641560375" duration="1155000" />
+      <workItem from="1679646493997" duration="28000" />
+      <workItem from="1679646715417" duration="48000" />
+      <workItem from="1679646771954" duration="77000" />
+      <workItem from="1679646850882" duration="8039000" />
+      <workItem from="1679717135811" duration="1195000" />
+      <workItem from="1679733211292" duration="20759000" />
+      <workItem from="1679798023122" duration="10710000" />
+      <workItem from="1680009899827" duration="597000" />
+      <workItem from="1680425609059" duration="1444000" />
+      <workItem from="1681798771434" duration="360000" />
+      <workItem from="1681807479479" duration="599000" />
+      <workItem from="1683314560125" duration="993000" />
+      <workItem from="1683436682139" duration="680000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2956164000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="446" y="38" width="1932" height="1021" extended-state="1" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49888888" visible="true" weight="0.2451923" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.5011111" side_tool="true" weight="0.14712153" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Structure" order="7" weight="0.124200426" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.26666668" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5111288" side_tool="true" weight="0.21428572" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" />
+      <window_info anchor="bottom" id="Application Servers" order="3" weight="0.32777777" />
+      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32892805" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" sideWeight="0.4989339" weight="0.32936507" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.4968017" weight="0.3077778" />
+      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.48887122" weight="0.36666667" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.31444445" />
+      <window_info anchor="bottom" id="Statistic" order="14" weight="0.3549133" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Duplicate detector" order="16" weight="0.31555554" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="17" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Module Dependencies" order="8" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.32954547" />
+      <window_info anchor="right" id="Database" order="11" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Bean Validation" order="12" weight="0.32873377" />
+      <window_info anchor="right" id="Ant Build" order="13" weight="0.24981245" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49888888" visible="true" weight="0.14586645" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.5011111" side_tool="true" weight="0.14712153" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Structure" order="7" weight="0.124200426" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.26666668" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5111288" side_tool="true" weight="0.21428572" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" />
+      <window_info anchor="bottom" id="Application Servers" order="3" weight="0.32777777" />
+      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32892805" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" sideWeight="0.4989339" weight="0.32936507" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.4968017" weight="0.30864197" />
+      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.48887122" weight="0.14444445" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.31444445" />
+      <window_info anchor="bottom" id="Statistic" order="14" weight="0.35555556" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Duplicate detector" order="16" weight="0.31555554" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="17" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Module Dependencies" order="8" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.32954547" />
+      <window_info anchor="right" id="Database" order="11" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Bean Validation" order="12" weight="0.32873377" />
+      <window_info anchor="right" id="Ant Build" order="13" weight="0.24981245" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Pinecone/Framework/Util/JSON/JSONUtils.java</url>
+          <line>141</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/http/CommonHttpEntityParser.java</url>
+          <line>197</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="setValue">
+      <expression>
+        <expression-string>&quot;%dick&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Saurye/Wizard/User/WordExplicater/WordExplicaterModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="45" column="134" selection-start-line="45" selection-start-column="134" selection-end-line="45" selection-end-column="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Saurye/Peripheral/Skill/Util/FileHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Saurye/Peripheral/Equipment/EquipmentPeddlerSour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Saurye/System/CurrencyTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="method#CurrencyTemplate#0;class#CurrencyTemplate#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Saurye/System/Prototype/JasperTraitExpresser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/prototype/SequentialDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/prototype/Wizard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/prototype/Wizardum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/prototype/Pagesion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Saurye/Elements/Basic/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding>
+            <element signature="e#999#1000#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/SystemSpawner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#spawnSystem#0;class#SystemSpawner#0" />
+            <element signature="method#spawnDispatcher#0;class#SystemSpawner#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/prototype/Pageson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/System/Prototype/ExecutableSummoner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/prototype/WizardSummoner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Saurye/System/PredatorWizardSummoner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pinecone/error.tpl.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1454">
+          <caret line="141" column="44" selection-start-line="141" selection-start-column="44" selection-end-line="141" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Unit/MultiValueMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Unit/LinkedCaseInsensitiveMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Unit/LinkedMultiValueMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Unit/FuzzyTreeMap.java" />
+    <entry file="jar://D:/ProgramFiles/ToolChains/Java/JDK1.8x86/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="368" column="21" selection-start-line="368" selection-start-column="21" selection-end-line="368" selection-end-column="21" />
+          <folding>
+            <element signature="docComment;class#TreeMap#0" />
+            <element signature="e#4604#4760#0" />
+            <element signature="e#4858#4910#0" />
+            <element signature="e#4952#5022#0" />
+            <element signature="e#5068#5745#0" />
+            <element signature="e#5807#6542#0" />
+            <element signature="e#6596#6597#0" expanded="true" />
+            <element signature="e#6640#6641#0" expanded="true" />
+            <element signature="e#6647#7416#0" />
+            <element signature="e#7528#7922#0" />
+            <element signature="e#8022#8109#0" />
+            <element signature="e#8256#8395#0" />
+            <element signature="e#8452#9019#0" />
+            <element signature="e#9114#9710#0" />
+            <element signature="e#9114#9933#0" />
+            <element signature="e#9939#11040#0" />
+            <element signature="e#11246#11309#0" />
+            <element signature="e#11384#11447#0" />
+            <element signature="e#11520#12099#0" />
+            <element signature="e#11520#12793#0" />
+            <element signature="e#12257#12760#1" />
+            <element signature="e#12397#12750#1" />
+            <element signature="e#12447#12587#0" />
+            <element signature="e#12799#13371#0" />
+            <element signature="e#14038#14275#0" />
+            <element signature="e#14825#15123#0" />
+            <element signature="e#14825#15944#0" />
+            <element signature="e#15225#15917#1" />
+            <element signature="e#15295#15429#1" />
+            <element signature="e#15448#15876#1" />
+            <element signature="e#15487#15539#1" />
+            <element signature="e#15545#15862#1" />
+            <element signature="e#15701#15809#1" />
+            <element signature="e#15950#16173#0" />
+            <element signature="e#15950#16992#0" />
+            <element signature="e#16273#16965#1" />
+            <element signature="e#16343#16479#1" />
+            <element signature="e#16498#16923#1" />
+            <element signature="e#16536#16587#1" />
+            <element signature="e#16593#16909#1" />
+            <element signature="e#16748#16856#1" />
+            <element signature="e#16998#17241#0" />
+            <element signature="e#16998#18017#0" />
+            <element signature="e#17342#17990#1" />
+            <element signature="e#17412#17546#1" />
+            <element signature="e#17552#17980#1" />
+            <element signature="e#17591#17643#1" />
+            <element signature="e#17649#17966#1" />
+            <element signature="e#17805#17913#1" />
+            <element signature="e#18023#18238#0" />
+            <element signature="e#18023#19012#0" />
+            <element signature="e#18338#18985#1" />
+            <element signature="e#18408#18544#1" />
+            <element signature="e#18550#18975#1" />
+            <element signature="e#18588#18639#1" />
+            <element signature="e#18645#18961#1" />
+            <element signature="e#18800#18908#1" />
+            <element signature="e#19018#19924#0" />
+            <element signature="e#19018#21483#0" />
+            <element signature="e#20377#20708#1" />
+            <element signature="e#20394#20679#1" />
+            <element signature="e#20722#21241#1" />
+            <element signature="e#20932#21212#1" />
+            <element signature="e#21489#22208#0" />
+            <element signature="e#21489#22414#0" />
+            <element signature="e#22420#22535#0" />
+            <element signature="e#22420#22626#0" />
+            <element signature="e#22632#22812#0" />
+            <element signature="e#22632#23566#0" />
+            <element signature="e#22881#22942#0" />
+            <element signature="e#22980#23031#0" />
+            <element signature="e#23341#23428#0" />
+            <element signature="e#23605#23634#0" />
+            <element signature="e#23732#23761#0" />
+            <element signature="e#23857#23886#0" />
+            <element signature="e#23857#24099#0" />
+            <element signature="e#24105#24134#0" />
+            <element signature="e#24105#24345#0" />
+            <element signature="e#24351#24603#0" />
+            <element signature="e#24709#24961#0" />
+            <element signature="e#25050#25302#0" />
+            <element signature="e#25408#25660#0" />
+            <element signature="e#25749#26001#0" />
+            <element signature="e#26111#26363#0" />
+            <element signature="e#26456#26708#0" />
+            <element signature="e#26816#27068#0" />
+            <element signature="e#27173#27376#0" />
+            <element signature="e#27527#28907#0" />
+            <element signature="e#28982#29011#0" />
+            <element signature="e#28982#29182#0" />
+            <element signature="e#29188#29217#0" />
+            <element signature="e#29327#30463#0" />
+            <element signature="e#29327#30651#0" />
+            <element signature="e#30559#30626#1" />
+            <element signature="e#30657#31817#0" />
+            <element signature="e#30657#31963#0" />
+            <element signature="e#31969#31998#0" />
+            <element signature="e#31969#32334#0" />
+            <element signature="e#32340#32667#0" />
+            <element signature="e#32340#32991#0" />
+            <element signature="e#32997#33305#0" />
+            <element signature="e#32997#33541#0" />
+            <element signature="e#33547#33857#0" />
+            <element signature="e#33547#34099#0" />
+            <element signature="e#34105#34414#0" />
+            <element signature="e#34533#34823#0" />
+            <element signature="e#34918#35210#0" />
+            <element signature="e#35308#35570#0" />
+            <element signature="e#35474#35542#1" />
+            <element signature="e#35576#35814#0" />
+            <element signature="e#35684#35787#1" />
+            <element signature="e#35820#36237#0" />
+            <element signature="e#36053#36231#1" />
+            <element signature="e#36145#36221#1" />
+            <element signature="e#36243#36692#0" />
+            <element signature="e#36497#36686#1" />
+            <element signature="e#36600#36676#1" />
+            <element signature="e#36725#37588#0" />
+            <element signature="e#37068#37368#0" />
+            <element signature="e#37180#37332#1" />
+            <element signature="e#37230#37318#1" />
+            <element signature="e#37594#38864#0" />
+            <element signature="e#37774#38109#0" />
+            <element signature="e#38119#38552#0" />
+            <element signature="e#38440#38516#1" />
+            <element signature="e#38716#38858#0" />
+            <element signature="e#39374#42272#0" />
+            <element signature="e#39507#39549#0" />
+            <element signature="e#39559#39783#0" />
+            <element signature="e#39793#40047#0" />
+            <element signature="e#40057#40095#0" />
+            <element signature="e#40104#40152#0" />
+            <element signature="e#40161#40223#0" />
+            <element signature="e#40232#40266#0" />
+            <element signature="e#40275#40320#0" />
+            <element signature="e#40329#40374#0" />
+            <element signature="e#40383#40432#0" />
+            <element signature="e#40441#40488#0" />
+            <element signature="e#40497#40538#0" />
+            <element signature="e#40547#40586#0" />
+            <element signature="e#40595#40663#0" />
+            <element signature="e#40672#40807#0" />
+            <element signature="e#40816#40949#0" />
+            <element signature="e#40958#41098#0" />
+            <element signature="e#41107#41399#0" />
+            <element signature="e#41408#41548#0" />
+            <element signature="e#41557#41701#0" />
+            <element signature="e#42278#42329#0" />
+            <element signature="e#42278#43971#0" />
+            <element signature="e#42495#42645#0" />
+            <element signature="e#42740#43084#0" />
+            <element signature="e#43094#43440#0" />
+            <element signature="e#43450#43965#0" />
+            <element signature="e#43977#44214#0" />
+            <element signature="e#44220#44437#0" />
+            <element signature="e#44443#44654#0" />
+            <element signature="e#44660#45241#0" />
+            <element signature="e#44894#45235#0" />
+            <element signature="e#45272#45362#0" />
+            <element signature="e#45582#45718#0" />
+            <element signature="e#45843#45916#0" />
+            <element signature="e#45843#46081#0" />
+            <element signature="e#46087#46143#0" />
+            <element signature="e#46251#46382#0" />
+            <element signature="e#46251#46516#0" />
+            <element signature="e#46539#46639#0" />
+            <element signature="e#46703#46737#0" />
+            <element signature="e#46703#63964#0" />
+            <element signature="e#46955#46998#0" />
+            <element signature="e#47038#47459#0" />
+            <element signature="e#47581#48346#0" />
+            <element signature="e#47793#47926#1" />
+            <element signature="e#47932#48099#1" />
+            <element signature="e#48387#48633#0" />
+            <element signature="e#48450#48597#1" />
+            <element signature="e#48643#48886#0" />
+            <element signature="e#48703#48850#1" />
+            <element signature="e#49001#49165#0" />
+            <element signature="e#49509#49815#0" />
+            <element signature="e#49825#50125#0" />
+            <element signature="e#50135#50374#0" />
+            <element signature="e#50384#50621#0" />
+            <element signature="e#50631#50867#0" />
+            <element signature="e#50877#51113#0" />
+            <element signature="e#51123#51185#0" />
+            <element signature="e#51123#51415#0" />
+            <element signature="e#51425#51487#0" />
+            <element signature="e#51425#51725#0" />
+            <element signature="e#51735#51797#0" />
+            <element signature="e#52182#52251#0" />
+            <element signature="e#52356#52426#0" />
+            <element signature="e#52873#53060#0" />
+            <element signature="e#54527#54771#0" />
+            <element signature="e#54781#55025#0" />
+            <element signature="e#55202#55421#0" />
+            <element signature="e#56012#57897#0" />
+            <element signature="e#56150#56626#0" />
+            <element signature="e#56309#56583#1" />
+            <element signature="e#56476#56565#1" />
+            <element signature="e#56640#56784#0" />
+            <element signature="e#56798#57265#0" />
+            <element signature="e#57279#57887#0" />
+            <element signature="e#57750#57843#1" />
+            <element signature="e#57907#57955#0" />
+            <element signature="e#57907#60464#0" />
+            <element signature="e#58186#58475#0" />
+            <element signature="e#58610#59029#0" />
+            <element signature="e#59043#59464#0" />
+            <element signature="e#59478#60051#0" />
+            <element signature="e#60065#60453#0" />
+            <element signature="e#60474#60902#0" />
+            <element signature="e#60559#60715#0" />
+            <element signature="e#60912#61370#0" />
+            <element signature="e#61007#61181#0" />
+            <element signature="e#61380#62772#0" />
+            <element signature="e#61554#61706#0" />
+            <element signature="e#61977#62126#0" />
+            <element signature="e#62139#62365#0" />
+            <element signature="e#62226#62321#1" />
+            <element signature="e#62472#62624#0" />
+            <element signature="e#62782#63958#0" />
+            <element signature="e#62900#63070#0" />
+            <element signature="e#63342#63491#0" />
+            <element signature="e#63504#63730#0" />
+            <element signature="e#63591#63686#1" />
+            <element signature="e#63970#64004#0" />
+            <element signature="e#63970#67484#0" />
+            <element signature="e#64163#64420#0" />
+            <element signature="e#64528#65110#0" />
+            <element signature="e#65120#65497#0" />
+            <element signature="e#65507#65886#0" />
+            <element signature="e#65896#66259#0" />
+            <element signature="e#66649#66863#0" />
+            <element signature="e#66873#67051#0" />
+            <element signature="e#67061#67121#0" />
+            <element signature="e#67130#67191#0" />
+            <element signature="e#67200#67264#0" />
+            <element signature="e#67273#67336#0" />
+            <element signature="e#67345#67407#0" />
+            <element signature="e#67416#67478#0" />
+            <element signature="e#67490#67524#0" />
+            <element signature="e#67490#71145#0" />
+            <element signature="e#67684#67942#0" />
+            <element signature="e#68170#68755#0" />
+            <element signature="e#68765#69137#0" />
+            <element signature="e#69147#69528#0" />
+            <element signature="e#69538#69898#0" />
+            <element signature="e#70298#70523#0" />
+            <element signature="e#70368#70513#0" />
+            <element signature="e#70533#70712#0" />
+            <element signature="e#70722#70783#0" />
+            <element signature="e#70792#70852#0" />
+            <element signature="e#70861#70923#0" />
+            <element signature="e#70932#70994#0" />
+            <element signature="e#71003#71067#0" />
+            <element signature="e#71076#71139#0" />
+            <element signature="e#71151#71474#0" />
+            <element signature="e#71151#72511#0" />
+            <element signature="e#71759#71984#0" />
+            <element signature="e#71993#72061#0" />
+            <element signature="e#72070#72119#0" />
+            <element signature="e#72128#72178#0" />
+            <element signature="e#72187#72266#0" />
+            <element signature="e#72275#72344#0" />
+            <element signature="e#72353#72424#0" />
+            <element signature="e#72433#72505#0" />
+            <element signature="e#72642#72759#0" />
+            <element signature="e#72973#73113#0" />
+            <element signature="e#72973#73268#0" />
+            <element signature="e#73278#73359#0" />
+            <element signature="e#73431#73564#0" />
+            <element signature="e#73640#73865#0" />
+            <element signature="e#73640#74010#0" />
+            <element signature="e#74020#74266#0" />
+            <element signature="e#74276#74475#0" />
+            <element signature="e#74571#74722#0" />
+            <element signature="e#74571#74900#0" />
+            <element signature="e#74906#75056#0" />
+            <element signature="e#74906#75235#0" />
+            <element signature="e#75241#75325#0" />
+            <element signature="e#75241#75832#0" />
+            <element signature="e#75470#75602#1" />
+            <element signature="e#75608#75826#1" />
+            <element signature="e#75725#75794#1" />
+            <element signature="e#75838#75924#0" />
+            <element signature="e#75838#76424#0" />
+            <element signature="e#76062#76195#1" />
+            <element signature="e#76201#76418#1" />
+            <element signature="e#76317#76386#1" />
+            <element signature="e#76430#76796#0" />
+            <element signature="e#77025#77140#0" />
+            <element signature="e#77366#77381#0" />
+            <element signature="e#77366#77871#0" />
+            <element signature="e#77449#77865#1" />
+            <element signature="e#77877#77892#0" />
+            <element signature="e#77877#78354#0" />
+            <element signature="e#77961#78348#1" />
+            <element signature="e#78360#78375#0" />
+            <element signature="e#78360#79979#0" />
+            <element signature="e#78515#79945#1" />
+            <element signature="e#78579#79255#1" />
+            <element signature="e#78683#78897#1" />
+            <element signature="e#78903#79241#1" />
+            <element signature="e#78956#79059#1" />
+            <element signature="e#79261#79935#1" />
+            <element signature="e#79364#79578#1" />
+            <element signature="e#79584#79921#1" />
+            <element signature="e#79636#79740#1" />
+            <element signature="e#79985#80047#0" />
+            <element signature="e#79985#81660#0" />
+            <element signature="e#80138#80208#0" />
+            <element signature="e#80287#80416#0" />
+            <element signature="e#80600#81151#1" />
+            <element signature="e#81179#81250#1" />
+            <element signature="e#81256#81654#1" />
+            <element signature="e#81425#81644#1" />
+            <element signature="e#81666#81681#0" />
+            <element signature="e#81666#83983#0" />
+            <element signature="e#81781#83948#1" />
+            <element signature="e#81825#82874#1" />
+            <element signature="e#81924#82126#1" />
+            <element signature="e#82234#82330#1" />
+            <element signature="e#82336#82860#1" />
+            <element signature="e#82394#82609#1" />
+            <element signature="e#82880#83938#1" />
+            <element signature="e#82991#83193#1" />
+            <element signature="e#83300#83396#1" />
+            <element signature="e#83402#83924#1" />
+            <element signature="e#83459#83673#1" />
+            <element signature="e#84060#84655#0" />
+            <element signature="e#84060#85185#0" />
+            <element signature="e#85047#85179#1" />
+            <element signature="e#85191#85296#0" />
+            <element signature="e#85191#85616#0" />
+            <element signature="e#85622#85679#0" />
+            <element signature="e#85622#85872#0" />
+            <element signature="e#85878#85931#0" />
+            <element signature="e#85878#86215#0" />
+            <element signature="e#86014#86100#0" />
+            <element signature="e#86222#87837#0" />
+            <element signature="e#86222#88222#0" />
+            <element signature="e#88228#88979#0" />
+            <element signature="e#88228#91352#0" />
+            <element signature="e#90331#90637#1" />
+            <element signature="e#90367#90534#1" />
+            <element signature="e#90540#90627#1" />
+            <element signature="e#90643#90786#1" />
+            <element signature="e#90995#91072#1" />
+            <element signature="e#91096#91322#1" />
+            <element signature="e#91358#91846#0" />
+            <element signature="e#91358#92019#0" />
+            <element signature="e#92025#92464#0" />
+            <element signature="e#92025#93295#0" />
+            <element signature="e#92570#92724#1" />
+            <element signature="e#92768#93150#1" />
+            <element signature="e#92959#93140#1" />
+            <element signature="e#93420#93553#0" />
+            <element signature="e#93559#94922#0" />
+            <element signature="e#93559#96324#0" />
+            <element signature="e#95362#95768#0" />
+            <element signature="e#95778#96224#0" />
+            <element signature="e#95894#96192#1" />
+            <element signature="e#95936#96124#1" />
+            <element signature="e#96330#99359#0" />
+            <element signature="e#96453#96707#0" />
+            <element signature="e#96717#97545#0" />
+            <element signature="e#97316#97510#1" />
+            <element signature="e#97555#98494#0" />
+            <element signature="e#97877#98484#1" />
+            <element signature="e#97938#98315#1" />
+            <element signature="e#98029#98142#1" />
+            <element signature="e#98168#98297#1" />
+            <element signature="e#98504#99055#0" />
+            <element signature="e#99065#99243#0" />
+            <element signature="e#99365#102347#0" />
+            <element signature="e#99498#99782#0" />
+            <element signature="e#99792#100663#0" />
+            <element signature="e#100421#100628#1" />
+            <element signature="e#100673#101611#0" />
+            <element signature="e#100995#101601#1" />
+            <element signature="e#101056#101432#1" />
+            <element signature="e#101146#101260#1" />
+            <element signature="e#101286#101414#1" />
+            <element signature="e#101621#102174#0" />
+            <element signature="e#102184#102341#0" />
+            <element signature="e#102353#105260#0" />
+            <element signature="e#102486#102746#0" />
+            <element signature="e#102756#103612#0" />
+            <element signature="e#103377#103577#1" />
+            <element signature="e#103622#104563#0" />
+            <element signature="e#103944#104553#1" />
+            <element signature="e#104005#104384#1" />
+            <element signature="e#104098#104211#1" />
+            <element signature="e#104237#104366#1" />
+            <element signature="e#104573#105126#0" />
+            <element signature="e#105266#108847#0" />
+            <element signature="e#105404#105664#0" />
+            <element signature="e#105674#106530#0" />
+            <element signature="e#106295#106495#1" />
+            <element signature="e#106540#107489#0" />
+            <element signature="e#106876#107479#1" />
+            <element signature="e#106937#107310#1" />
+            <element signature="e#107024#107137#1" />
+            <element signature="e#107163#107292#1" />
+            <element signature="e#107499#108059#0" />
+            <element signature="e#108069#108251#0" />
+            <element signature="e#108261#108841#0" />
+            <element signature="e#108427#108508#1" />
+            <element signature="e#108526#108831#1" />
+            <element signature="e#108596#108816#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/New folder/config.json5" />
+    <entry file="file://$USER_HOME$/Desktop/New folder/predatorMenu.json5" />
+    <entry file="file://$USER_HOME$/Desktop/New folder/predator.json5" />
+    <entry file="file://$USER_HOME$/Desktop/predator.json5" />
+    <entry file="file://$PROJECT_DIR$/src/Saurye/Wizard/Public/undefined/undefinedModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="method#beforeGenieInvoke#0;class#undefinedModel#0" />
+            <element signature="method#magic#0;class#undefinedModel#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Saurye/System/Predator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#1459#1604#0" />
+            <element signature="e#1610#1828#0" />
+            <element signature="e#1834#1927#0" />
+            <element signature="e#2010#2658#0" />
+            <element signature="e#3315#3559#0" />
+            <element signature="e#3864#4087#0" />
+            <element signature="e#4666#4801#0" />
+            <element signature="e#4906#5320#0" />
+            <element signature="e#5552#6937#0" />
+            <element signature="e#7066#8280#0" />
+            <element signature="e#8286#9770#0" />
+            <element signature="e#9776#10874#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/predator.json5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/config.json5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/http/CommonHttpEntityParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Saurye/System/PredatorDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="38" column="81" selection-start-line="38" selection-start-column="81" selection-end-line="38" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/ArchPageson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#hasEnchanterTrait#0;class#ArchPageson#0" />
+            <element signature="method#appendDefaultPageDate#0;class#ArchPageson#0" />
+            <element signature="method#setRenderum#0;class#ArchPageson#0" />
+            <element signature="method#render#0;class#ArchPageson#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/ArchWizardum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+          <folding>
+            <element signature="method#writer#0;class#ArchWizardum#0" />
+            <element signature="method#out#0;class#ArchWizardum#0" />
+            <element signature="method#stop#0;class#ArchWizardum#0" />
+            <element signature="method#redirect#0;class#ArchWizardum#0" />
+            <element signature="method#spawnWizardQuerySpell#0;class#ArchWizardum#0" />
+            <element signature="method#spawnActionQuerySpell#0;class#ArchWizardum#0" />
+            <element signature="method#spawnControlQuerySpell#0;class#ArchWizardum#0" />
+            <element signature="method#spawnActionControlSpell#0;class#ArchWizardum#0" />
+            <element signature="method#summonNormalGenieByCallHisName#0;class#ArchWizardum#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/ArchWizardSummoner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+          <folding>
+            <element signature="method#ArchWizardSummoner#0;class#ArchWizardSummoner#0" />
+            <element signature="method#queryNamespace#0;class#ArchWizardSummoner#0" />
+            <element signature="method#spawnFullModelPrototypeName#0;class#ArchWizardSummoner#0" />
+            <element signature="method#spawnFullControlPrototypeName#0;class#ArchWizardSummoner#0" />
+            <element signature="method#spawnWizardModelByCallHisName#0;class#ArchWizardSummoner#0" />
+            <element signature="method#spawnWizardModel#0;class#ArchWizardSummoner#0" />
+            <element signature="method#summon#0;class#ArchWizardSummoner#0" />
+            <element signature="method#executeAfterSummonSequence#0;class#ArchWizardSummoner#0" />
+            <element signature="method#summonIfExist#0;class#ArchWizardSummoner#0" />
+            <element signature="method#summonAndExecute#0;class#ArchWizardSummoner#0" />
+            <element signature="method#revealArchetype#0;class#ArchWizardSummoner#0" />
+            <element signature="method#beforeSummon#0;class#ArchWizardSummoner#0" />
+            <element signature="method#soulBound#0;class#ArchWizardSummoner#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/PostConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+          <folding>
+            <element signature="method#PostConnection#1;class#PostConnection#0" />
+            <element signature="method#apply#0;class#PostConnection#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/prototype/ConnectDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/GetConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="method#GetConnection#1;class#GetConnection#0" />
+            <element signature="method#apply#0;class#GetConnection#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/ArchConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding>
+            <element signature="method#ArchConnection#0;class#ArchConnection#0" />
+            <element signature="method#writer#0;class#ArchConnection#0" />
+            <element signature="method#out#0;class#ArchConnection#0" />
+            <element signature="method#$_REQUEST#1;class#ArchConnection#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Saurye/System/PredatorArchWizardum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#2333#2508#0" />
+            <element signature="e#2514#2999#0" />
+            <element signature="e#3005#3654#0" />
+            <element signature="e#5140#5834#0" />
+            <element signature="e#5840#7197#0" />
+            <element signature="e#7203#7754#0" />
+            <element signature="e#7760#8183#0" />
+            <element signature="e#8505#9002#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Saurye/System/PredatorGenieBottle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="method#dispatch#0;class#PredatorGenieBottle#0" />
+            <element signature="method#defaultGenie#0;class#PredatorGenieBottle#0" />
+            <element signature="method#beforeGenieInvoke#0;class#PredatorGenieBottle#0" />
+            <element signature="method#afterGenieInvoked#0;class#PredatorGenieBottle#0" />
+            <element signature="method#prospectGlobalOccupation#0;class#PredatorGenieBottle#0" />
+            <element signature="method#prospectGenieOccupation#0;class#PredatorGenieBottle#0" />
+            <element signature="method#prospectGenieOccupation#1;class#PredatorGenieBottle#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/SystemServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Saurye/System/PredatorArchWizard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="method#getWizardProto#0;class#PredatorArchWizard#0" />
+            <element signature="e#679#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/ArchRouterDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#RouterClass#0;class#ArchRouterDispatcher#0" />
+            <element signature="class#RouterMethod#0;class#ArchRouterDispatcher#0" />
+            <element signature="method#urlNormalize#0;class#ArchRouterDispatcher#0" />
+            <element signature="method#fetchPaths#0;class#ArchRouterDispatcher#0" />
+            <element signature="method#fetchRouterClass#0;class#ArchRouterDispatcher#0" />
+            <element signature="method#fetchRouterMethod#0;class#ArchRouterDispatcher#0" />
+            <element signature="method#fetchRouterMaps#0;class#ArchRouterDispatcher#0" />
+            <element signature="method#ArchRouterDispatcher#0;class#ArchRouterDispatcher#0" />
+            <element signature="method#queryRoutum#0;class#ArchRouterDispatcher#0" />
+            <element signature="method#spawnPagesion#0;class#ArchRouterDispatcher#0" />
+            <element signature="method#spawnController#0;class#ArchRouterDispatcher#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Saurye/Wizard/Public/undefined/undefined.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Saurye/Wizard/Public/undefined/undefinedControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Saurye/Wizard/Admin/AdminMutualWordDepositor/AdminMutualWordDepositor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Saurye/Wizard/Admin/AdminUserManage/AdminUserManageModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Saurye/Wizard/User/GeniusTranslator/GeniusTranslatorModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="method#defaultGenie#0;class#GeniusTranslatorModel#0" />
+            <element signature="method#sentenceProfile#0;class#GeniusTranslatorModel#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Saurye/Wizard/User/NovelGrimoire/NovelGrimoireModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Saurye/Wizard/Admin/AdminMutualWordDepositor/AdminMutualWordDepositorModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="method#defaultGenie#0;class#AdminMutualWordDepositorModel#0" />
+            <element signature="method#mutualWordsList#0;class#AdminMutualWordDepositorModel#0" />
+            <element signature="method#appendNewWord#0;class#AdminMutualWordDepositorModel#0" />
+            <element signature="method#wordEditor#0;class#AdminMutualWordDepositorModel#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pinecone/Framework/Util/Summer/ArchConnectDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="171" selection-start-line="171" selection-end-line="171" />
+          <folding>
+            <element signature="e#3834#4091#0" />
+            <element signature="e#4097#4253#0" />
+            <element signature="e#4259#4418#0" />
+            <element signature="e#4424#4579#0" />
+            <element signature="e#4585#4742#0" />
+            <element signature="e#4748#4906#0" />
+            <element signature="e#4912#5069#0" />
+            <element signature="e#5076#5234#0" />
+            <element signature="e#5240#5488#0" />
+            <element signature="e#5494#5786#0" />
+            <element signature="e#5795#6433#0" />
+            <element signature="e#6439#6696#0" />
+            <element signature="e#6702#6886#0" />
+            <element signature="e#6892#7074#0" />
+            <element signature="e#7080#7262#0" />
+            <element signature="e#7268#7443#0" />
+            <element signature="e#7452#7527#0" />
+            <element signature="e#7533#7609#0" />
+            <element signature="e#7615#7762#0" />
+            <element signature="e#7768#7961#0" />
+            <element signature="e#7967#8782#0" />
+            <element signature="e#8788#9943#0" />
+            <element signature="e#9949#10318#0" />
+            <element signature="e#10324#12223#0" />
+            <element signature="e#12229#12628#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Saurye:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (Saurye)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android API 22 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Saurye</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>servlet-api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="hanlp-1.8.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/Pinecone/Framework/Library/hanlp-1.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

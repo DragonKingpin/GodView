@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="OpenNLP">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/src/Pinecone/Framework/Library/OpenNLP" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/src/Pinecone/Framework/Library/OpenNLP" recursive="false" />
+  </library>
+</component>

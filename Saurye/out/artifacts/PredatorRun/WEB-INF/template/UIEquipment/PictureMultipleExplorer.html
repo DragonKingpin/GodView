@@ -1,0 +1,381 @@
+<div class="modal fade" id="CrispPictureMultipleExplorerDialog" tabindex="-1" role="dialog" aria-labelledby="CrispPictureExplorerLabel" aria-hidden="true"  style="overflow-y:scroll;">
+    <style>
+        .crisp-picture-explorer{
+            width: 45%;
+        }
+        .crisp-picture-explorer .operatorBox{
+            padding: 10px 20px;border-bottom: 1px solid #e7e7eb;clear: both;box-sizing: border-box;text-align: right;margin-bottom: 1%;margin-top: 1%
+        }
+        .crisp-picture-explorer .pictureList{
+            overflow-y:scroll;height: 320px;
+        }
+        .crisp-picture-explorer .FileNameLabel{
+            width: 80px
+        }
+        .crisp-picture-explorer .GreyBackground{
+            background: #e5e5e5
+        }
+        .crisp-picture-explorer .searchGroup{
+            float: left;
+            width: 60%;
+            position: relative;
+            margin-bottom: 0;
+            margin-left: -2%;
+        }
+        .crisp-picture-explorer .searchGroup label{
+            width: 15%;height: 34px;line-height: 34px;color: #333;float: left;background-color: white;border: 1px solid #E4E4E4;text-align: center;
+        }
+        .crisp-picture-explorer .searchGroup input{
+            margin-left: 1%;
+            border-radius: 0;
+            width: 84%;
+            display: inline;
+        }
+        .crisp-picture-explorer .mask {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.3);
+            left: 0;
+        }
+        .crisp-picture-explorer .mask-icon {
+            color: #fff;
+            font-size: 30px;
+            position: absolute;
+            top: 40%;
+            left: 40%;
+        }
+
+        .pictureExplorer {
+            margin-left: -5px;
+        }
+        .pictureExplorer > ul {
+            margin-bottom: 0; }
+        .pictureExplorer li {
+            margin-bottom: 10px !important; }
+        .pictureExplorer .picture {
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            border: 1px solid #e7e7eb;
+        }
+        .pictureExplorer .picture:hover .actions {
+            bottom: 0; }
+        .pictureExplorer .picture .tags {
+            position: absolute;
+            right: 2px;
+            top: 2px;
+            direction: rtl; }
+        .pictureExplorer .picture .tags .label {
+            display: table;
+            margin-bottom: 2px;
+            text-align: left;
+            direction: ltr; }
+        .pictureExplorer .picture .actions {
+            width: 100%;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.3);
+            height: 33px;
+            left: 0;
+            bottom: -33px;
+            *zoom: 1;
+            -webkit-transition: bottom 100ms ease;
+            -moz-transition: bottom 100ms ease;
+            -o-transition: bottom 100ms ease;
+            transition: bottom 100ms ease; }
+        .pictureExplorer .picture .actions:before, .pictureExplorer .picture .actions:after {
+            display: table;
+            content: "";
+            line-height: 0; }
+        .pictureExplorer .picture .actions:after {
+            clear: both; }
+        .pictureExplorer .picture .actions.show-actions {
+            bottom: 0; }
+        .pictureExplorer .picture .actions .btn-link {
+            color: white;
+            text-shadow: none; }
+        .pictureExplorer .picture .actions .pull-right .btn-link {
+            position: relative;
+            top: 2px; }
+
+        ul.unstyled,
+        ol.unstyled {
+            margin-left: 0;
+            list-style: none;
+            padding: 0 0 0 20px;
+        }
+
+        ul.inline,
+        ol.inline {
+            margin-left: 0;
+            list-style: none;
+        }
+        ul.inline > li,
+        ol.inline > li {
+            display: inline-block;
+            *display: inline;
+            *padding-right: 5px;
+            padding-left: 5px;
+            *zoom: 1;
+        }
+        .pagination > li > a:focus{
+            background: white;
+        }
+        .pagination > li >a:active{
+            background: #eee;
+        }
+    </style>
+    <div class="modal-dialog crisp-picture-explorer" style="margin-top: 5%">
+        <div class="modal-content">
+            <div class="modal-header GreyBackground">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="CrispPictureExplorerLabel">选择图片</h4>
+            </div>
+
+            <div class="panel-body" >
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#serve" data-toggle="tab">当前服务器</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade active in" id="serve">
+                        <div class="col-sm-12 operatorBox" >
+                            <div class = "form-group searchGroup">
+                                <label><i class = "fa fa-search"></i></label>
+                                <input type="text" class="form-control" id = "timeToSearch" placeholder="输入文件名以查找！">
+                            </div>
+                            <form>
+                                <label for="resourceFile" class="btn btn-primary">上传图片</label>
+                                <input type="file" id="resourceFile" onchange="CrispPictureMultipleExplorer.uploadImg()" name="adminImgUpload" accept="image/gif, image/jpg, image/jpeg, image/bmp, image/png, image/ico" style="display: none">
+                            </form>
+                        </div>
+
+                        <div class='row'>
+                            <div class='pictureExplorer'>
+                                <ul class='unstyled inline pictureList'>
+
+                                </ul>
+                            </div>
+                            <div class="col-sm-12" style="margin-bottom: -3%;text-align: right">
+                                <ul class="pagination" id="CrispPictureMultiplePagination"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer GreyBackground" style="text-align: center">
+                <button onclick="CrispPictureMultipleExplorer.spawn(false)" type="button" class="btn btn-danger" data-dismiss="modal" style="width: 15% ">覆盖</button>
+                <button onclick="CrispPictureMultipleExplorer.spawn(true)" type="button" class="btn btn-primary" data-dismiss="modal" style="width: 15% ">追加</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" style="width: 15% ">取消</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var CrispPictureMultipleExplorer = {
+        show_number:10,
+        currentName:"",
+        currentID:"",
+        number:0,
+        picture:[],
+        pictureBack:[],
+        pictureList:[],
+        selectFlag:[],
+        countNumber:0,
+
+        showDialog:function(name){
+            this.currentID =  name;
+            this.currentName = name;
+            CrispPictureMultipleExplorer.pictureBack = CrispPictureMultipleExplorer.picture.slice();
+            this.getImage();
+        },
+
+        initialize:function(src){
+            this.picture = src;
+            this.countNumber = 0;
+            this.pictureList = [];
+            this.selectFlag = [];
+        },
+
+        spawn:function(cover){
+            if(!cover){
+                $("."+this.currentID +" .multi-item").detach();
+            }
+            var splitZone = '';
+            for(var i=0; i < this.pictureList.length; i++){
+                splitZone +=
+                    '<div class="multi-item"  style="margin-top:0.5em;">\n' +
+                    '     <img src="'+this.pictureList[i]+'" onerror="this.src=\'/root/System/img/nopic.jpg\'; this.title=\'图片未找到.\'" class="img-responsive img-thumbnail" width="150">\n' +
+                    '     <input  name="'+this.currentName+'[]" value="'+this.pictureList[i]+'" type="hidden" />'+
+                    '     <em class="close" style="position: absolute; top: 0; right: -14px;" title="删除这张图片" onclick="deleteMultiImage(this)">×</em>\n' +
+                    '</div>';
+            }
+            $("."+this.currentID + ' .input-group').append(splitZone);
+            this.pictureList = [];
+        },
+
+        showPagination:function (uiID,cPageID,sumOfPage, limit) {
+            // 计算总共存在多少页
+            var lims = Math.ceil(sumOfPage / limit);
+            // 本页最开始条数
+            var page_start_count = (cPageID * this.show_number) - (this.show_number - 1);
+            // 本页最后条数
+            var page_end_count = page_start_count + this.show_number - 1;
+            //清空uiID中的所有html
+            $(uiID).empty();
+            //向uiID中添加html
+            if(lims !== cPageID){
+                var information = '第'+ page_start_count + '—' + page_end_count  + '条，共' + sumOfPage + '条';
+            } else {
+                var information = '第'+ page_start_count + '—' + sumOfPage  + '条，共' + sumOfPage + '条';
+            }
+            $(uiID).append('<li><a>' + information + '</a></li>');
+            if(cPageID > 1){
+                $(uiID).append('<li><a href="javascript:CrispPictureMultipleExplorer.changeId(1);">开始</a></li><li><a href="javascript:CrispPictureMultipleExplorer.changeId('+ (cPageID - 1) +');"><<</a></li> ');
+            } else {
+                $(uiID).append('<li><a  href ="javascript:;"><<</a></li> ');
+            }
+            for(var i = 1; i <= lims ; i ++){
+                if(i === cPageID){
+                    $(uiID).append('<li class = "active"><a  href ="javascript:;">'+ i +'</a></li> ');
+                }else {
+                    $(uiID).append('<li ><a  href ="javascript:CrispPictureMultipleExplorer.changeId('+i+');">'+ i +'</a></li> ');
+                }
+            }
+            if(cPageID < lims){
+                $(uiID).append('<li><a disabled href ="javascript:CrispPictureMultipleExplorer.changeId('+ (cPageID + 1) +');">>></a></li> ');
+                $(uiID).append('<li><a href="javascript:CrispPictureMultipleExplorer.changeId('+lims+');">末尾</a></li>')
+            } else {
+                $(uiID).append('<li><a  href ="javascript:;"> >></a></li> ');
+            }
+        },
+
+        getImage:function() {
+            this.number = this.picture.length;
+            this.showImage(1);
+            this.showPagination('#CrispPictureMultiplePagination',1,this.number,this.show_number);
+        },
+
+        showImage:function(pageId){
+            $('.unstyled').empty();
+            var index = (pageId - 1) * this.show_number;
+            for(var i = index; i < index + this.show_number && i < this.number ; i++){
+                this.selectFlag[i] = false;
+                $('.unstyled').append('<li  ><div class="picture" id="picture'+i+'">' +
+                    '<div class="actions">'+
+                    '<div class="pull-left FileNameLabel">'+
+                    '<a class="btn btn-link"><small>'+CrispPictureMultipleExplorer.picture[i].filename +'</small></a></div>'+
+                    '<div class="pull-right">'+
+                    '<a class="btn btn-primary " href="javascript:CrispPictureMultipleExplorer.imageDelete('+ i +');" style="border-radius: 0">'+
+                    '<i class="fa fa-trash"></i></a></div></div>'+
+                    '<div onclick="CrispPictureMultipleExplorer.changeImage('+ i +')">'+
+                    '   <div class="mask" style="display: none"><label class="mask-icon"><i class = "fa fa-check"></i></label></div>'+
+                    '   <img src="'+CrispPictureMultipleExplorer.picture[i].url+'" width="150" height="150"/></div></li> '+
+                    '</div>');
+                $('#Select'+index+'').detach();
+            }
+        },
+
+        changeId:function (pageId) {
+            this.showImage(pageId);
+            this.showPagination('#CrispPictureMultiplePagination',pageId,this.number,this.show_number);
+        },
+
+        imageDelete:function (imageId) {
+            if(confirm("您确定要删除 '" +CrispPictureMultipleExplorer.picture[imageId].filename+ "' 这张图片吗？")){
+                var classid = CrispPictureMultipleExplorer.picture[imageId].classid;
+                CrispPictureMultipleExplorer.picture.splice(imageId,1);
+                $.ajax({
+                    url: "index.php?do=CrispInfrastructure",
+                    async: false,
+                    type: "GET",
+                    data: {'control':'adminImgDelete',"classid":classid},
+                    success: function (result) {
+                        CrispPictureMultipleExplorer.getImage();
+                    }
+                });
+            }
+        },
+
+        changeImage:function (index) {
+            if(!this.selectFlag[index]){
+                this.selectFlag[index] = true;
+                this.pictureList.splice(this.countNumber,0,this.picture[index].url);
+                this.countNumber++;
+                $('#picture'+index+' .mask').css("display", "block");
+            }else {
+                this.countNumber--;
+                this.selectFlag[index] = false;
+                this.pictureList.splice(this.countNumber,1);
+                $('#picture'+index+' .mask').css("display", "none");
+            }
+            //trace(this.selectFlag[index]);
+            //trace(this.pictureList);
+        },
+
+        search:function () {
+            var str = $('#timeToSearch').val();
+            var index = CrispPictureMultipleExplorer.picture.length;
+            //console.info(picture[0].name.trim().indexOf(str));
+            if(str !== ''){
+                for(var i = 0; i < index ;i++){
+                    if(CrispPictureMultipleExplorer.picture[i].filename.trim().indexOf(str) < 0){
+                        CrispPictureMultipleExplorer.picture.splice(i,1);
+                        i--;
+                        index--;
+                    }
+                }
+            }
+            this.getImage();
+            CrispPictureMultipleExplorer.picture = CrispPictureMultipleExplorer.pictureBack.slice();
+        },
+
+        uploadImg:function () {
+            var formData = new FormData();
+            var resourceFileHandle = $('#resourceFile');
+            formData.append('adminImgUpload',resourceFileHandle[0].files[0]);
+            $.ajax({
+                url: "index.php?do=CrispInfrastructure&control=adminImgUpload",
+                type: "POST",
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (data) {
+                    if(data!=="true"){
+                        if(data==="defined"){
+                            alert("文件已存在，请勿重复上传！");
+                            $("#timeToSearch").val(resourceFileHandle[0].files[0].name);
+                            CrispPictureMultipleExplorer.search();
+                        }else {
+                            alert("文件上传失败，请重试！");
+                        }
+                    }else {
+                        $.ajax({
+                            url: "index.php?do=CrispInfrastructure",
+                            async: false,
+                            type: "GET",
+                            data: {'action':'getPublicAdminImg'},
+                            success: function (result) {
+                                CrispPictureMultipleExplorer.initialize(JSON.parse(result));
+                                CrispPictureMultipleExplorer.getImage();
+                            }
+                        });
+                    }
+                },
+                error:function(data){
+                    alert("文件上传失败，请重试！");
+                }
+            });
+        }
+    };
+
+    $('#timeToSearch').bind('input propertychange', function() {CrispPictureMultipleExplorer.search();});
+
+    CrispPictureMultipleExplorer.initialize(templateContent[publicAdminImg]);
+
+    function deleteMultiImage(elm){
+        $(elm).parent().remove();
+    }
+
+</script>

@@ -1,0 +1,152 @@
+{
+  "union": [
+    {
+      "title": "Home", "href": "/", "icon": "fa fa-home", "submenu": null
+    },
+    {
+      "title": "Navigation", "href": "?do=SiteNavigation", "icon": "fa fa-paper-plane", "submenu": null
+    }
+  ],
+
+  "public": [
+    {
+      "title": "Login", "href": "?do=UnifyLogin", "icon": "fa fa-user", "submenu": null
+    }
+  ],
+
+  "client": [
+    {
+      "title": "Exhaustum", "href": "javascript:void(0)", "icon": "fa fa-magic",
+      "submenu": [
+        {
+          "title": "魔法搜索", "href": "?do=GeniusExplorer", "icon": "", "submenu": null
+        },
+        {
+          "title": "魔法词汇", "href": "javascript:void(0)", "icon": "",
+          "submenu": [
+            {
+              "title": "魔法词源", "href": "?do=EtymologyExplorer", "icon": "", "submenu": null
+            },
+            {
+              "title": "词根字典", "href": "javascript:void(0)", "icon": "", "submenu": null
+            }
+          ]
+        },
+        {
+          "title": "魔法阅读", "href": "javascript:void(0)", "icon": "",
+          "submenu": [
+            {
+              "title": "魔法短文", "href": "javascript:void(0)", "icon": "", "submenu": null
+            },
+            {
+              "title": "魔法小说", "href": "?do=NovelGrimoire", "icon": "", "submenu": null
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "title": "资源社区", "href": "javascript:void(0)", "icon": "fa fa-users", "submenu": [
+      {
+        "title": "词汇社区", "href": "javascript:void(0)", "icon": "",
+        "submenu": [
+          {
+            "title": "单词本", "href": "?do=MutualGlossary", "icon": "", "submenu": null,
+          },
+          {
+            "title": "词根本", "href": "javascript:void(0)", "icon": "", "submenu": null,
+          }
+        ]
+      },
+      {
+        "title": "阅读社区", "href": "javascript:void(0)", "icon": "",
+        "submenu": [
+          {
+            "title": "美句本", "href": "javascript:void(0)", "icon": "", "submenu": null,
+          },
+          {
+            "title": "作文本", "href": "javascript:void(0)", "icon": "", "submenu": null,
+          }
+        ]
+      }
+    ]
+    },
+
+    {
+      "title": "个人中心", "href": "?do=UserIndex", "icon": "fa fa-user-circle-o", "submenu": null
+    },
+
+    {
+      "title": "私人英语频道", "href": "javascript:void(0)", "icon": "fa fa-podcast",
+      "submenu": [
+        {
+          "title": "单词频道", "href": "javascript:void(0)", "icon": "javascript:void(0)",
+          "submenu": [
+            {
+              "title": "魔法单词本", "href": "?do=PersonalGlossary", "icon": "", "submenu": null
+            },
+            {
+              "title": "魔法词根本", "href": "?do=PersonalFragments", "icon": "", "submenu": null
+            },
+            {
+              "title": "魔法背单词", "href": "?do=ReciteCenter", "icon": "javascript:void(0)",
+              "submenu": null
+            }
+          ]
+        },
+        {
+          "title": "读写频道", "href": "javascript:void(0)", "icon": "javascript:void(0)",
+          "submenu": [
+            {
+              "title": "魔法作文本", "href": "javascript:void(0)", "icon": "", "submenu": null
+            },
+            {
+              "title": "魔法造句本", "href": "?do=PersonalSentences", "icon": "", "submenu": null
+            }
+          ]
+        },
+        {
+          "title": "私人字典", "href": "javascript:void(0)", "icon": "", "submenu": null
+        },
+        {
+          "title": "每日推荐", "href": "javascript:void(0)", "icon": "", "submenu": null
+        }
+      ]
+    }
+  ],
+
+  "admin": [
+    {
+      "title": "网站数据管理", "href": "javascript:void(0)", "icon": "",
+      "submenu": [
+        {
+          "title": "用户基本信息", "href": "javascript:void(0)", "icon": "",
+          "submenu": [
+            {
+              "title": "账号基本信息管理", "href": "?do=AdminUserManage", "icon": "",
+              "submenu": null
+            }
+          ]
+        },
+        {
+          "title": "用户应用数据", "href": "javascript:void(0)", "icon": "",
+          "submenu": [
+            {
+              "title": "用户个人单词本管理", "href": "?do=AdminMutualGlossary", "icon": "",
+              "submenu": null,
+            }
+          ]
+        },
+        {
+          "title": "系统应用数据", "href": "javascript:void(0)", "icon": "",
+          "submenu": [
+            {
+              "title": "基本共用单词管理", "href": "?do=AdminMutualWordDepositor", "icon": "", "submenu": null
+            }
+          ]
+        },
+      ]
+    },
+  ]
+}

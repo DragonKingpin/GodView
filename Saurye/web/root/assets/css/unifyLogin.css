@@ -1,0 +1,1173 @@
+/*--- reset code ---*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ol,ul {
+    list-style:none;
+    margin:0px;
+    padding:0px;
+}
+blockquote,q {
+    quotes:none;
+}
+blockquote:before,blockquote:after,q:before,q:after {
+    content:'';
+    content:none;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* start editing from here */
+a {
+    text-decoration:none;
+}
+.txt-rt {
+    text-align:right;
+}/* text align right */
+.txt-lt {
+    text-align:left;
+}/* text align left */
+.txt-center {
+    text-align:center;
+    /*-- W3Layouts --*/
+}/* text align center */
+.float-rt {
+    float:right;
+}/* float right */
+.float-lt {
+    float:left;
+}/* float left */
+.clear {
+    clear:both;
+}/* clear float */
+.pos-relative {
+    position:relative;
+}/* Position Relative */
+.pos-absolute {
+    position:absolute;
+}/* Position Absolute */
+.vertical-base {
+    vertical-align:baseline;
+}/* vertical align baseline */
+.vertical-top {
+    vertical-align:top;
+}/* vertical align top */
+nav.vertical ul li {
+    display:block;
+}/* vertical menu */
+nav.horizontal ul li {
+    display: inline-block;
+}/* horizontal menu */
+img {
+    max-width:100%;
+}
+
+/*--- end reset code ---*/
+
+body {
+    margin:0;
+    padding:0;
+    background:#004487;
+    background-attachment:fixed;
+    background-position:center;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    font-family: 'Muli', sans-serif;
+}
+.clear {
+    clear:both;
+}
+/*-- AgileITS --*/
+h1 {
+    text-align:center;
+    font-size:68px;
+    color:#fff;
+    padding:20px 0;
+    /*text-transform:uppercase;*/
+    font-weight: 300;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.log .LogoField h2 {
+    font-size:40px;
+    padding: 30px 0 0;
+    color:#fff;
+    font-weight: 300;
+    font-family: 'Nunito', sans-serif;
+    text-align:center;
+}
+.log .InputField h2 {
+    font-size:40px;
+    padding: 30px 0 0;
+    color:#fff;
+    font-weight: 300;
+    font-family: 'Nunito', sans-serif;
+    text-align:center;
+}
+.log {
+    width:75%;
+    margin:0 auto;
+}
+
+.LogoField, .InputField {
+    width: 48%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom:30px;
+    float: left;
+    border-radius: 0px;
+}
+.InputField {
+    width:48%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.21);
+    margin: auto;
+    padding-top:30px;
+    padding-bottom:70px;
+    border-radius: 0px;
+}
+.LogoField input[type="text"] {
+    padding:10px 40px 10px 10px;
+    width:70%;
+    border:1px solid #fff;
+    color:#fff;
+    text-align:left;
+    outline:none;
+    font-size:18px;
+    background:url(../../assets/img/person.png) no-repeat 440px 10px;
+    margin-top:4%;
+    font-weight: 300;
+    font-family: 'Muli', sans-serif;
+    /*-- W3Layouts --*/
+    border-radius: 4px;
+}
+.LogoField input[type="password"] {
+    padding:10px 40px 10px 10px;
+    width:70%;
+    border:1px solid #fff;
+    color:#fff;
+    text-align:left;
+    outline:none;
+    font-size:18px;
+    background:url(../../assets/img/lock.png) no-repeat 440px 10px;
+    margin-top:6%;
+    font-weight: 300;
+    font-family: 'Muli', sans-serif;
+    border-radius: 4px;
+}
+.button-row {
+    width:100%;
+    margin-top:5%;
+    padding-bottom:40px;
+}
+.tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+.sign-in {
+    padding:10px;
+    background-color:#4C9A39;
+    width:35%;
+    border:none;
+    cursor:pointer;
+    color:#fff;
+    font-weight: 300;
+    font-family: 'Nunito', sans-serif;
+    font-size:20px;
+    margin-left:62px;
+    float:left;
+    text-transform:uppercase;
+    border-radius:4px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.sign-in:hover {
+    background-color:#376D29;
+    color:#fff;
+}
+.reset {
+    padding:10px;
+    background-color:#c0392b;
+    width:35%;
+    border:none;
+    /*-- AgileITS --*/
+    cursor:pointer;
+    color:#fff;
+    font-size:20px;
+    float:right;
+    margin-right:62px;
+    font-weight: 300;
+    font-family: 'Nunito', sans-serif;
+    text-transform:uppercase;
+    border-radius:4px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.reset:hover {
+    background-color:#791F16;
+    color:#fff;
+}
+
+.InputField input[type="text"] {
+    padding:10px 40px 10px 10px;
+    width:70%;
+    border:1px solid white;
+    color:#fff;
+    text-align:left;
+    outline:none;
+    font-size:18px;
+    background: no-repeat 440px 10px;
+    margin-top:5%;
+    font-weight: 300;
+    font-family: 'Muli', sans-serif;
+    border-radius: 4px;
+}
+.InputField input[type="tel"] {
+    padding:10px 40px 10px 10px;
+    width:70%;
+    border:1px solid white;
+    color:#fff;
+    text-align:left;
+    outline:none;
+    font-size:18px;
+    background:no-repeat 440px 10px;
+    margin-top:4%;
+    font-weight: 300;
+    font-family: 'Muli', sans-serif;
+    border-radius: 4px;
+}
+.InputField input[type="email"] {
+    padding:10px 40px 10px 10px;
+    width:70%;
+    border:1px solid white;
+    color:#fff;
+    text-align:left;
+    outline:none;
+    font-size:18px;
+    background: no-repeat 440px 10px;
+    margin-top:4%;
+    font-family: 'Muli', sans-serif;
+    border-radius: 4px;
+}
+.InputField input[type="password"] {
+    padding:10px 40px 10px 10px;
+    width:70%;
+    border:1px solid white;
+    color:#fff;
+    text-align:left;
+    outline:none;
+    font-size:18px;
+    background: no-repeat 440px 10px;
+    margin-top:4%;
+    font-weight: 300;
+    font-family: 'Muli', sans-serif;
+    border-radius: 4px;
+}
+
+.InputField .verify-wrap {
+    width:70%;
+    border:1px solid white;
+    text-align:left;
+    outline:none;
+    font-size:18px;
+    background:no-repeat 440px 10px;
+    margin-top:4%;
+    font-family: 'Muli', sans-serif;
+}
+
+.InputField a{
+    color: white;
+}
+.register {
+    padding:10px;
+    background-color:#4C9A39;
+    width:78%;
+    border:none;
+    cursor:pointer;
+    color:#fff;
+    font-weight: 300;
+    font-family: 'Nunito', sans-serif;
+    font-size:20px;
+    margin-top:7%;
+    text-transform:uppercase;
+    border-radius:4px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.register:hover {
+    background-color:#376D29;
+    color:white;
+}
+
+/*-- responsive-mediaquries --*/
+
+@media(max-width:3000px){
+    .sign-in {
+        margin-left:12%;
+    }
+    .reset {
+        margin-right:12%;
+    }
+}
+
+@media(max-width:1920px){
+    .sign-in {
+        margin-left:78px;
+    }
+    .reset {
+        margin-right:78px;
+    }
+    .InputField input[type="text"] {
+        background: no-repeat 500px 10px;
+    }
+    .InputField input[type="tel"] {
+        background: no-repeat 500px 10px;
+    }
+    .InputField input[type="email"] {
+        background: no-repeat 500px 10px;
+    }
+    .InputField input[type="password"] {
+        background:no-repeat 500px 10px;
+    }
+    .InputField .verify-wrap {
+        background:no-repeat 500px 10px;
+    }
+}
+
+@media(max-width:1680px){
+    .LogoField input[type="text"] {
+        background: no-repeat 438px 10px;
+    }
+    .LogoField input[type="password"] {
+        background: no-repeat 438px 10px;
+    }
+    .InputField input[type="text"] {
+        background: no-repeat 438px 10px;
+    }
+    .InputField input[type="tel"] {
+        background: no-repeat 438px 10px;
+    }
+    .InputField input[type="email"] {
+        background: no-repeat 438px 10px;
+    }
+    .InputField input[type="password"] {
+        background:  no-repeat 438px 10px;
+    }
+    .InputField .verify-wrap {
+        background:no-repeat 438px 10px;
+    }
+    .sign-in {
+        margin-left: 65px;
+    }
+    .reset {
+        margin-right:65px;
+    }
+}
+
+@media(max-width:1600px){
+    .LogoField input[type="text"] {
+        background:  no-repeat 418px 10px;
+    }
+    .LogoField input[type="password"] {
+        background: no-repeat 418px 10px;
+    }
+    .InputField input[type="text"] {
+        background: no-repeat 418px 10px;
+    }
+    .InputField input[type="tel"] {
+        background: no-repeat 418px 10px;
+    }
+    .InputField input[type="email"] {
+        background: no-repeat 418px 10px;
+    }
+    .InputField input[type="password"] {
+        background: no-repeat 418px 10px;
+    }
+    .InputField .verify-wrap {
+        background:no-repeat 418px 10px;
+    }
+    .sign-in {
+        margin-left: 61px;
+    }
+    .reset {
+        margin-right:61px;
+    }
+}
+
+@media (max-width: 1440px){
+    .LogoField input[type="text"] {
+        background:  no-repeat 380px 10px;
+    }
+    .LogoField input[type="password"] {
+        background:  no-repeat 380px 10px;
+    }
+    .InputField input[type="text"] {
+        background:  no-repeat 380px 10px;
+    }
+    .InputField input[type="tel"] {
+        background: no-repeat 380px 10px;
+    }
+    .InputField .verify-wrap {
+        background:no-repeat 380px 10px;
+    }
+    .InputField input[type="email"] {
+        background:  no-repeat 380px 10px;
+    }
+    .InputField input[type="password"] {
+        background: no-repeat 380px 10px;
+    }
+    .sign-in {
+        margin-left: 52px;
+    }
+    .reset {
+        margin-right:52px;
+    }
+}
+
+@media (max-width: 1366px){
+    .LogoField input[type="text"] {
+        background: no-repeat 360px 10px;
+    }
+    .LogoField input[type="password"] {
+        background: no-repeat 360px 10px;
+    }
+    .InputField input[type="text"] {
+        background: no-repeat 360px 10px;
+    }
+    .InputField input[type="tel"] {
+        background: no-repeat 360px 10px;
+    }
+    .InputField .verify-wrap {
+        background:no-repeat 360px 10px;
+    }
+    .InputField input[type="email"] {
+        background: no-repeat 360px 10px;
+    }
+    .InputField input[type="password"] {
+        background: no-repeat 360px 10px;
+    }
+    .sign-in {
+        margin-left: 49px;
+    }
+    .reset {
+        margin-right:49px;
+    }
+    .register {
+        width:395px;
+    }
+}
+
+@media (max-width: 1280px){
+    .LogoField input[type="text"] {
+        background: no-repeat 338px 10px;
+    }
+    .LogoField input[type="password"] {
+        background: no-repeat 338px 10px;
+    }
+    .InputField input[type="text"] {
+        background:  no-repeat 338px 10px;
+    }
+    .InputField input[type="tel"] {
+        background: no-repeat 338px 10px;
+    }
+    .InputField .verify-wrap {
+        background:no-repeat 338px 10px;
+    }
+    .InputField input[type="email"] {
+        background: no-repeat 338px 10px;
+    }
+    .InputField input[type="password"] {
+        background: no-repeat 338px 10px;
+    }
+    .sign-in {
+        margin-left: 43px;
+    }
+    .reset {
+        margin-right:43px;
+    }
+    .register {
+        width: 373px;
+    }
+}
+
+@media (max-width: 1080px){
+    .LogoField input[type="text"] {
+        background: no-repeat 288px 10px;
+    }
+    .LogoField input[type="password"] {
+        background: no-repeat 288px 10px;
+    }
+    .sign-in {
+        margin-left: 33px;
+    }
+    .reset {
+        margin-right: 33px;
+    }
+    .InputField input[type="text"] {
+        background: no-repeat 288px 10px;
+    }
+    .InputField input[type="tel"] {
+        background: no-repeat 288px 10px;
+    }
+    .InputField input[type="email"] {
+        background: no-repeat 288px 10px;
+    }
+    .InputField input[type="password"] {
+        background: no-repeat 288px 10px;
+    }
+    .InputField .verify-wrap {
+        background:no-repeat 288px 10px;
+    }
+    h1 {
+        font-size:40px;
+    }
+    .log .LogoField h2 , .log .InputField h2 {
+        font-size: 35px;
+    }
+    .register {
+        width: 320px;
+    }
+}
+
+@media (max-width: 1050px){
+    .LogoField input[type="text"] {
+        background: no-repeat 280px 10px;
+    }
+    .LogoField input[type="password"] {
+        background: no-repeat 280px 10px;
+    }
+    .InputField input[type="text"] {
+        background: no-repeat 280px 10px;
+    }
+    .InputField input[type="tel"] {
+        background: no-repeat 280px 10px;
+    }
+    .InputField .verify-wrap {
+        background:no-repeat 280px 10px;
+    }
+    .InputField input[type="email"] {
+        background: no-repeat 280px 10px;
+    }
+    .InputField input[type="password"] {
+        background: no-repeat 280px 10px;
+    }
+    .register {
+        width: 315px;
+    }
+}
+
+@media (max-width: 1024px){
+    .LogoField input[type="text"] {
+        background: no-repeat 370px 10px;
+    }
+    .LogoField input[type="password"] {
+        background: no-repeat 370px 10px;
+    }
+    .sign-in {
+        margin-left:30px;
+    }
+    .reset {
+        margin-right:30px;
+    }
+    .InputField input[type="text"] {
+        background:no-repeat 370px 10px;
+    }
+    .InputField input[type="tel"] {
+        background: no-repeat 370px 10px;
+    }
+    .InputField .verify-wrap {
+        background:no-repeat 370px 10px;
+    }
+    .InputField input[type="email"] {
+        background:  no-repeat 370px 10px;
+    }
+    .InputField input[type="password"] {
+        background: no-repeat 370px 10px;
+    }
+    .button-row {
+        padding:25px 0;
+    }
+    .register {
+        width: 304px;
+    }
+    .log .LogoField h2, .log .InputField h2 {
+        font-size: 30px;
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 991px){
+    .LogoField input[type="text"] {
+        background: no-repeat 260px 10px;
+    }
+    .LogoField input[type="password"] {
+        background: no-repeat 260px 10px;
+    }
+    .InputField input[type="text"] {
+        background: no-repeat 260px 10px;
+    }
+    .InputField input[type="tel"] {
+        background: no-repeat 260px 10px;
+    }
+    .InputField .verify-wrap {
+        background:no-repeat 260px 10px;
+    }
+    .InputField input[type="email"] {
+        background: no-repeat 260px 10px;
+    }
+    .InputField input[type="password"] {
+        background: no-repeat 260px 10px;
+    }
+    .register {
+        width: 295px;
+    }
+}
+
+@media (max-width: 900px){
+    .LogoField input[type="text"] {
+        background: no-repeat 240px 10px;
+    }
+    .LogoField input[type="password"] {
+        background: no-repeat 240px 10px;
+    }
+    .InputField input[type="text"] {
+        background: no-repeat 240px 10px;
+    }
+    .InputField input[type="tel"] {
+        background: no-repeat 240px 10px;
+    }
+    .InputField .verify-wrap {
+        background:no-repeat 240px 10px;
+    }
+    .InputField input[type="email"] {
+        background: no-repeat 240px 10px;
+    }
+    .InputField input[type="password"] {
+        background: no-repeat 240px 10px;
+    }
+    .register {
+        width: 274px;
+    }
+    .button-row {
+        padding: 10px 0;
+    }
+    .sign-in {
+        margin-left: 23px;
+    }
+    .reset {
+        margin-right: 23px;
+    }
+    .InputField {
+        padding:30px 0 50px;
+    }
+}
+
+@media (max-width: 800px){
+    .LogoField input[type="text"] {
+        background: no-repeat 245px 10px;
+        font-size: 16px;
+        background-size: 7% 50%;
+    }
+    .LogoField input[type="password"] {
+        background: no-repeat 245px 10px;
+        font-size: 16px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="text"] {
+        background: no-repeat 245px 10px;
+        font-size: 16px;
+        background-size: 7% 50%;
+    }
+    .InputField .verify-wrap {
+        background:no-repeat 245px 10px;
+    }
+    .InputField .verify-wrap {
+        background:no-repeat 370px 10px;
+    }
+    .InputField input[type="tel"] {
+        background: no-repeat 245px 10px;
+        font-size: 16px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="email"] {
+        background: no-repeat 245px 10px;
+        font-size: 16px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="password"] {
+        background: no-repeat 245px 10px;
+        font-size: 16px;
+        background-size: 7% 50%;
+    }
+    .log {
+        width: 85%;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .log .LogoField h2, .log .InputField h2 {
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 768px){
+    .LogoField input[type="text"] {
+        background: no-repeat 240px 10px;
+        background-size: 7% 50%;
+    }
+    .LogoField input[type="password"] {
+        background: no-repeat 240px 10px;
+        background-size: 7% 50%;
+    }
+    .sign-in {
+        margin-left:22px;
+        font-size: 16px;
+    }
+    .reset {
+        margin-right:22px;
+        font-size: 16px;
+    }
+    .InputField input[type="text"] {
+        background: no-repeat 240px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="tel"] {
+        background: no-repeat 240px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="email"] {
+        background: no-repeat 240px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField .verify-wrap {
+        background:no-repeat 240px 10px;
+    }
+    .InputField input[type="password"] {
+        background: no-repeat 240px 10px;
+        background-size: 7% 50%;
+    }
+    .register {
+        width: 270px;
+        font-size: 16px;
+    }
+    .footer p {
+        font-size:16px;
+    }
+    .log {
+        margin:0 auto 50px;
+    }
+}
+
+@media (max-width: 736px){
+    .LogoField input[type="text"] {
+        background:no-repeat 332px 10px;
+        background-size: 7% 50%;
+    }
+    .LogoField input[type="password"] {
+        background: no-repeat 332px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="text"] {
+        background: no-repeat 332px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="tel"] {
+        background: no-repeat 332px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField .verify-wrap {
+        background:no-repeat 332px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="email"] {
+        background:  no-repeat 332px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="password"] {
+        background:no-repeat 332px 10px;
+        background-size: 7% 50%;
+    }
+    .log {
+        width: 100%;
+    }
+    .LogoField{
+        width:63%;
+        float:none;
+        margin:0 auto;
+    }
+    .LogoField p {
+        margin-left: 31%;
+    }
+    .InputField{
+        width:63%;
+        float:none;
+        margin: 50px auto 0;
+    }
+    h1 {
+        padding:35px 0;
+    }
+    .sign-in {
+        margin-left: 43px;
+    }
+    .reset {
+        margin-right: 43px;
+    }
+    .register {
+        width: 370px;
+    }
+}
+
+@media (max-width: 667px){
+    .LogoField {
+        width: 70%;
+    }
+    .sign-in {
+        margin-left: 45px;
+        width: 120px;
+    }
+    .reset {
+        margin-right: 45px;
+        width: 120px;
+    }
+    .InputField{
+        width:70%;
+    }
+}
+
+@media (max-width: 640px){
+    .LogoField input[type="text"] {
+        background: no-repeat 322px 10px;
+        background-size: 7% 50%;
+    }
+    .LogoField input[type="password"] {
+        background: no-repeat 322px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="text"] {
+        background: no-repeat 322px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="tel"] {
+        background: no-repeat 322px 10px;
+        background-size: 7% 50%;
+    }
+
+    .InputField input[type="email"] {
+        background: no-repeat 322px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="password"] {
+        background: no-repeat 322px 10px;
+        background-size: 7% 50%;
+    }
+    .LogoField {
+        width: 70%;
+    }
+    .sign-in {
+        margin-left:41px;
+    }
+    .reset {
+        margin-right:41px;
+    }
+    .register{
+        width:82%;
+    }
+}
+
+
+@media (max-width: 600px){
+    .LogoField {
+        display: none;
+    }
+
+    .LogoField input[type="text"] {
+        background:no-repeat 304px 10px;
+        background-size: 7% 50%;
+    }
+    .LogoField input[type="password"] {
+        background:no-repeat 304px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="text"] {
+        background: no-repeat 304px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="tel"] {
+        background: no-repeat 304px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="email"] {
+        background: no-repeat 304px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="password"] {
+        background: no-repeat 304px 10px;
+        background-size: 7% 50%;
+    }
+    .sign-in {
+        margin-left: 37px;
+    }
+    .reset {
+        margin-right: 37px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 568px){
+    h1 {
+        padding: 25px 0;
+    }
+    .log .LogoField h2, .log .InputField h2 {
+        font-size: 30px;
+        padding: 5px 0 15px;
+    }
+    .LogoField input[type="text"] {
+        background: no-repeat 287px 10px;
+        background-size: 7% 50%;
+    }
+    .LogoField input[type="password"] {
+        background: no-repeat 287px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="text"] {
+        background: no-repeat 287px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="tel"] {
+        background: no-repeat 287px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="email"] {
+        background: no-repeat 287px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="password"] {
+        background: no-repeat 287px 10px;
+        background-size: 7% 50%;
+    }
+    .sign-in {
+        margin-left: 33px;
+    }
+    .reset {
+        margin-right: 33px;
+    }
+    .register {
+        width: 83%;
+    }
+}
+
+@media (max-width: 480px){
+    .LogoField {
+        display: none;
+    }
+    .InputField {
+        width: 80%;
+    }
+    .LogoField input[type="text"] {
+        background: no-repeat 280px 10px;
+        background-size: 7% 50%;
+    }
+    .LogoField input[type="password"] {
+        background: no-repeat 280px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="text"] {
+        background: no-repeat 280px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="tel"] {
+        background: no-repeat 280px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="email"] {
+        background: no-repeat 280px 10px;
+        background-size: 7% 50%;
+    }
+    .InputField input[type="password"] {
+        background: no-repeat 280px 10px;
+        background-size: 7% 50%;
+    }
+    .sign-in {
+        margin-left: 32px;
+    }
+    .reset {
+        margin-right: 32px;
+    }
+    .log {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:414px){
+    h1 {
+        font-size: 28px;
+    }
+    .log .LogoField h2, .log .InputField h2 {
+        font-size: 27px;
+    }
+    .sign-in {
+        margin-left: 22px;
+    }
+    .reset {
+        margin-right: 22px;
+    }
+    .register {
+        width: 86%;
+    }
+}
+
+@media (max-width: 384px){
+    .sign-in {
+        margin-left: 19px;
+    }
+    .reset {
+        margin-right: 19px;
+    }
+    .register {
+        width: 87%;
+    }
+}
+
+@media (max-width: 375px){
+    h1 {
+        font-size: 26px;
+    }
+    .log .LogoField h2, .log .InputField h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 320px){
+    h1 {
+        font-size: 24px;
+    }
+    .LogoField, .InputField {
+        width: 85%;
+    }
+    .LogoField input[type="text"] {
+        width: 65%;
+        background:  no-repeat 191px 10px;
+        background-size: 9% 50%;
+        font-size: 14px;
+    }
+    .LogoField input[type="password"] {
+        width:65%;
+        background: no-repeat 191px 10px;
+        background-size: 9% 50%;
+        font-size: 14px;
+    }
+    .InputField input[type="text"] {
+        width:65%;
+        background: no-repeat 191px 10px;
+        background-size: 9% 50%;
+        font-size: 14px;
+    }
+    .InputField input[type="tel"] {
+        margin-top: 6%;
+        width:65%;
+        background: no-repeat 191px 10px;
+        background-size: 9% 50%;
+        font-size: 14px;
+    }
+    .InputField input[type="email"] {
+        margin-top: 6%;
+        width:65%;
+        background: no-repeat 191px 10px;
+        background-size: 9% 50%;
+        font-size: 14px;
+    }
+    .InputField input[type="password"] {
+        margin-top: 6%;
+        width:65%;
+        background: no-repeat 191px 10px;
+        background-size: 9% 50%;
+        font-size: 14px;
+    }
+    .log .LogoField h2, .log .InputField h2 {
+        font-size: 23px;
+    }
+    .sign-in , .reset {
+        font-size: 15px;
+        width: 87px;
+    }
+    .footer p {
+        font-size: 14px;
+    }
+}
+
+.head{line-height:50px;padding:0 30px;overflow:hidden;background:rgba(255,255,255,.2)}
+
+.footer{
+    line-height:50px;
+    padding:0 30px;
+    overflow:hidden;
+    background:rgba(255,255,255,.2);
+    color: white
+}
+.footer a{
+    color: white;
+}
+.footer a,a:active {
+    color:#fff;
+    text-decoration:none;
+    transition: all 0.5s ease-in-out;
+}
+.footer a:hover {
+    color:#c0392b;
+    transition: all 0.5s ease-in-out;
+}
+
+.logo-version,.system-register .head .logo-version{display:inline-block;height:50px}
+
+.head .logo,.system-register .head .logo{
+    width:auto;
+    height:35px;
+    margin-top: 18%;
+}
+
+
+
+
+
+.verify-wrap {
+    background-color: #e5e5e5;
+    border: 1px solid #e0e0e0;
+    margin: 5px auto;
+    position: relative
+}
+
+.verify-wrap .fix-tips, .verify-msg {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    left: 1px;
+    height: 100%;
+    color: white;
+    z-index: 1;
+    line-height: 38px;
+    font-size: 12px;
+    text-align: center
+}
+
+.verify-wrap .verify-msg {
+    background-color: #7ac23c;
+    color: #fff;
+    display: none
+}
